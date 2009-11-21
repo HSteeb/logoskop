@@ -1,0 +1,104 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Bidi"=..\encoding\Bidi.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "LosFile"=..\LosFile\LosFile.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name xmlparse
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "w32los"=.\w32los.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LosFile
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name xmlparse
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Bidi
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "w32res"=..\w32res\w32res.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "xmlparse"=..\xmlparse\xmlparse.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name xmltok
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "xmltok"=..\xmltok\xmltok.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

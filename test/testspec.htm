@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+  <title>Logoskop - freeware The Word display program</title>
+  <meta name="Author" content="Helmut Steeb"/>
+  <meta name="Description" content="Logoskop - The Word display program"/>
+</head>
+<body text="#000000" bgcolor="#FFFFBD">
+<h1>Testspec for Logoskop</h1>
+
+
+<h2>Setting focus on combobox initially</h2>
+
+<table border='1' cellpadding='5' width='100%'>
+<tr>
+<th>what to do</th>
+<th>expected behaviour</th>
+</tr>
+<tr>
+  <td>start Logoskop with toolbar enabled</td>
+  <td>language combobox must have focus, 
+     pressing cursor keys changes language</td>
+</tr>
+<tr>
+  <td>start Logoskop with toolbar disabled</td>
+  <td>Nice to have: language combobox has focus anyway,
+     pressing cursor keys changes language</td>
+</tr>
+</table>
+
+<h2>Auto date switch</h2>
+
+<table border='1' cellpadding='5' width='100%'>
+<tr>
+<th>what to do</th>
+<th>expected behaviour</th>
+</tr>
+<tr>
+  <td>change PC date on command line to date where no file exists</td>
+  <td>Logoskop must say "No file found..."</td>
+</tr>
+<tr>
+  <td>change PC date on command line back to date where file exists</td>
+  <td>Logoskop must display text correctly</td>
+</tr>
+</table>
+
+<h2>Install *.twd</h2>
+
+<table border='1' cellpadding='5' width='100%'>
+<tr>
+<th>what to do</th>
+<th>expected behaviour</th>
+</tr>
+<tr>
+<td>install *.twd file with "Install" button</td>
+<td>file must be put into APPDATA folder</td>
+</tr>
+</table>
+
+<h2>Profile handling</h2>
+
+<table border='1' cellpadding='5' width='100%'>
+<tr>
+<th>what to do</th>
+<th>expected behaviour</th>
+</tr>
+<tr>
+<td>delete the ini files (windows, ProgDir), start Logoskop</td>
+<td>empty display, no harm</td>
+</tr>
+<tr>
+<td>select a standard named xml file for current day; restart Logoskop</td>
+<td>file is restored</td>
+</tr>
+<tr>
+<td>for text, then headline: change font, size, colour, underlined; restart Logoskop</td>
+<td>for text, then headline: font, size, colour, underlined are restored</td>
+</tr>
+<tr>
+<td>for text, then headline: change font, size, colour, underlined; change language + restore</td>
+<td>for text, then headline: font, size, colour, underlined are restored</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<h2>Email signature writing</h2>
+
+<table border='1' cellpadding='5' width='100%'>
+
+<tr>
+<th>what to do / change with respect to previous step</th>
+<th>expected behaviour</th>
+</tr>
+
+<tr>
+<td>put into INI file, section [General]:
+<pre>
+SignatureOn=1
+SignatureTemplate=d:\ps\c\debug\signatureTemplate.txt
+SignatureTarget=d:\ps\c\debug\signature.txt
+</pre>
+ensure there is a The Word text available for display,
+create file d:\ps\c\debug\signatureTemplate.txt e.g. containing
+<pre>
+--
+Hans Mustermann
+hans@mustermann.org
+--
+&lt;%THEWORD;>
+&lt;%TL;>
+&lt;%PAROL1;>
+&lt;%PAROL2;>
+</pre>
+then start Logoskop.exe
+</td>
+<td>d:\ps\c\debug\signature.txt contains The Word text, formatted as specified in signatureTemplate.txt.
+Replacement for %THEWORD; has trailing newline, no other replacement has trailing newline.</td>
+</tr>
+
+<tr>
+<td>ensure there is <strong>no</strong> The Word text available, start Logoskop.exe</td>
+<td>SignatureTarget is empty afterwards</td>
+</tr>
+
+<tr>
+<td>add to INI file:
+<pre>
+SignatureDefault=d:\ps\c\debug\signatureTemplate.txt
+</pre>
+then start Logoskop.exe
+</td>
+<td>SignatureTarget contains literal signatureTemplate.txt afterwards (no replacement!)</td>
+</tr>
+
+<tr>
+<td>put into INI file:
+<pre>
+SignatureOn=1
+SignatureTemplate=d:\ps\c\debug\signatureTemplate.txt
+SignatureTarget=d:\ps\c\debug\signature.txt
+SignatureLineSeparator=<br />
+</pre>
+then start Logoskop.exe
+</td>
+<td>SignatureTarget contains The Word text, formatted as specified in signatureTemplate.txt, with 
+"<br />" used as line separator within multiline replacements for %THEWORD;, %PAROL1; and %PAROL2;.</td>
+</tr>
+
+<tr>
+<td>modify SignatureLineSeparator in INI file to:
+<pre>
+SignatureLineSeparator=
+</pre>
+then start Logoskop.exe
+</td>
+<td>multiline replacements for %THEWORD;, %PAROL1; and %PAROL2; are concatenated without separator</td>
+</tr>
+
+<tr>
+<td>drop SignatureLineSeparator from INI file, then start Logoskop.exe
+</td>
+<td>multiline replacements for %THEWORD;, %PAROL1; and %PAROL2; are concatenated by line-break</td>
+</tr>
+
+</table>
+
+<h2>Logfile handling</h2>
+
+<table border='1' cellpadding='5' width='100%'>
+<tr>
+<th>what to do</th>
+<th>expected behaviour</th>
+</tr>
+<tr>
+  <td>drop INI file</td>
+  <td>no logfile written</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1</td>
+  <td>logfile Logoskop.log written to APPDATA folder</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1, set [General]Logfile=d:\temp\Logoskop.log</td>
+  <td>logfile written to d:\temp\Logoskop.log</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1, set [General]Logfile=d:\temp\Logoskop.log, set [General]LogfileLevel=3</td>
+  <td>logfile d:\temp\Logoskop.log written with 'E', 'I' and 'D' (debug) info</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1, set [General]Logfile=d:\temp\Logoskop.log, set [General]LogfileLevel=2</td>
+  <td>logfile d:\temp\Logoskop.log written with 'E' and 'I' info</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1, set [General]Logfile=d:\temp\Logoskop.log, set [General]LogfileLevel=1</td>
+  <td>logfile d:\temp\Logoskop.log written with 'E' info</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1, set [General]Logfile=d:\temp\Logoskop.log, set [General]LogfileLevel=0</td>
+  <td>logfile d:\temp\Logoskop.log not touched</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1, set [General]Logfile=d:\temp\Logoskop.log, set [General]LogfileLevel=4</td>
+  <td>same as LogfileLevel=3</td>
+</tr>
+
+<tr>
+  <td>set INI file [General]UseLogfile=1, set [General]Logfile=d:\temp\Logoskop.log, set [General]LogfileLevel=-4</td>
+  <td>same as LogfileLevel=3</td>
+</tr>
+
+</table>
+
+
+<p class="footer">
+ Version $Id: testspec.htm 3010 2008-11-29 08:35:58Z helmut $
+</p>
+</body>
+</html>
+

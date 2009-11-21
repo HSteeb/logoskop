@@ -1,0 +1,1749 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\idr_main.ico"
+IDI_COMPUTER            ICON    DISCARDABLE     "res\\computer.ico"
+IDI_POSTPAIR            ICON    DISCARDABLE     "res\\PostPair.ico"
+IDI_WWW                 ICON    DISCARDABLE     "res\\www.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_COPY                BITMAP  DISCARDABLE     "res\\Copy.bmp"
+IDB_PASTE               BITMAP  DISCARDABLE     "res\\Paste.bmp"
+IDB_FONTPROPERTIES      BITMAP  DISCARDABLE     "res\\FontProperties.bmp"
+IDB_COPYPRESSED         BITMAP  DISCARDABLE     "res\\CopyPressed.bmp"
+IDB_PASTEPRESSED        BITMAP  DISCARDABLE     "res\\PastePressed.bmp"
+IDB_FONTPROPERTIESPRESSED BITMAP  DISCARDABLE     "res\\FontPropertiesPressed.bmp"
+IDB_PASTEINSENSITIVE    BITMAP  DISCARDABLE     "res\\PasteInsensitive.bmp"
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\mainfram.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_ORGANIZE
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_LAYOUT
+    BUTTON      ID_EDIT_POST_PAIR
+    SEPARATOR
+    BUTTON      ID_VIEW_MONTHPREVIOUS
+    BUTTON      ID_VIEW_DAYBACK
+    BUTTON      ID_VIEW_TODAY
+    BUTTON      ID_VIEW_DAYFORTH
+    BUTTON      ID_VIEW_MONTHNEXT
+    SEPARATOR
+    BUTTON      ID_DATETIME_BUTTON
+    BUTTON      ID_COMBO_BUTTON
+    BUTTON      ID_COMBO2_BUTTON
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\w32los.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\w32los.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu/afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "#define _AFX_NO_APPMENU_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\w32los.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\w32los.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""afxres.rc""         // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\w32los.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""afxres.rc""         // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 13, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\w32los.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 16, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\w32los.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.ita\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\w32los.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Datei"
+    BEGIN
+        MENUITEM "Das Wort &aktualisieren...\tStrg+A", ID_FILE_ACTUALIZE
+        MENUITEM "Das Wort &organisieren...\tStrg+O", ID_FILE_ORGANIZE
+        MENUITEM "&E-Mail-Signatur konfigurieren...", ID_FILE_SIGNATURE
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Bearbeiten"
+    BEGIN
+        MENUITEM "&Kopieren\tStrg+C",           ID_EDIT_COPY
+        MENUITEM "E&rgänzende Bibelworte vorschlagen...\tStrg+R", 
+                                                ID_EDIT_POST_PAIR
+        MENUITEM "&Layout...\tStrg+L",          ID_EDIT_LAYOUT
+        MENUITEM "&Einstellungen...",           ID_EDIT_OPTIONS
+    END
+    POPUP "&Ansicht"
+    BEGIN
+        MENUITEM "Monat v&orher\tStrg+P",       ID_VIEW_MONTHPREVIOUS
+        MENUITEM "Tag &zurück\tStrg+B",         ID_VIEW_DAYBACK
+        MENUITEM "&Heute\tStrg+H",              ID_VIEW_TODAY
+        MENUITEM "Tag &vorwärts\tStrg+F",       ID_VIEW_DAYFORTH
+        MENUITEM "Monat &nachher\tStrg+N",      ID_VIEW_MONTHNEXT
+        MENUITEM SEPARATOR
+        MENUITEM "&Copyright",                  ID_VIEW_XLAT
+        MENUITEM SEPARATOR
+        MENUITEM "&Symbolleiste",               ID_VIEW_TOOLBAR
+        MENUITEM "Stat&uszeile",                ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Hilfe"
+    BEGIN
+        MENUITEM "Hilfe zum &Programm...",      ID_HELP_PROGRAM
+        MENUITEM "Projekt &Bibel 2.0 im Internet...", ID_HELP_PROJECT
+        MENUITEM "Ü&ber Logoskop...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_FILE_ACTUALIZE,      VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_VIEW_DAYBACK,        VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_EDIT_POST_PAIR,      VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_VIEW_DAYFORTH,       VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_VIEW_TODAY,          VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_EDIT_LAYOUT,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_VIEW_MONTHNEXT,      VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_ORGANIZE,       VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_VIEW_MONTHPREVIOUS,  VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LANGPACK DIALOG DISCARDABLE  0, 0, 332, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Das Wort aktualisieren"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Das Wort aus dem Internet herunterladen",IDC_STATIC,10,
+                    10,240,120
+    LTEXT           "&Jahr",IDC_STATIC,20,20,80,8
+    CONTROL         "",IDC_YEAR1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,100,
+                    20,50,10
+    CONTROL         "",IDC_YEAR2,"Button",BS_AUTORADIOBUTTON,100,35,50,10
+    LTEXT           "(Dateien für Das Wort %d sind frühestens im September %d verfügbar)",
+                    IDC_YEAR_HINT,150,20,90,30
+    LTEXT           "Sprache/Bibelausgabe:",IDC_STATIC,20,50,80,8
+    EDITTEXT        IDC_CURRDOCLANG,100,50,140,74,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY
+    DEFPUSHBUTTON   "&Herunterladen",IDOK,260,13,60,14
+    PUSHBUTTON      "&Abbrechen",IDCANCEL,260,30,60,14
+    PUSHBUTTON      "&Proxy...",IDC_LANGPACK_PROXY,260,50,60,14
+    CONTROL         "Diesen Dialog (Menü Datei | Das Wort aktualisieren) automatisch im nächsten Monat wieder anzeigen, falls eine Datei für %d dann noch auf Ihrem Rechner fehlt",
+                    IDC_AUTOLANGPACK,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,10,135,240,25
+END
+
+IDD_ORGANIZE DIALOG DISCARDABLE  0, 0, 232, 242
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Das Wort organisieren"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_COMPUTER,IDI_COMPUTER,204,7,21,20
+    LTEXT           "Dateien für Das Wort auf Ihrem Rechner...",IDC_STATIC,7,
+                    7,180,12
+    LTEXT           "... für das &Jahr:",IDC_STATIC,10,20,80,8
+    COMBOBOX        IDC_YEARCOMBO,90,20,60,70,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LISTINSTALLED,10,40,140,120,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Schließen",IDOK,160,40,65,14
+    DEFPUSHBUTTON   "Gewählte &anzeigen",IDC_ORGANIZE_VIEW,160,60,65,14
+    PUSHBUTTON      "Mehr\n&Herunterladen...",IDC_DOWNLOAD,160,90,65,24,
+                    BS_MULTILINE
+    PUSHBUTTON      "&Löschen...",IDC_DELETE,159,145,66,14
+    PUSHBUTTON      "&Proxy...",IDC_ORGANIZE_PROXY,159,117,66,14
+    PUSHBUTTON      "&Importieren...",IDC_UNPACK,160,203,65,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,10,196,215,1
+    LTEXT           "Wenn Sie eine Datei für Das Wort (*.twd) z.B. auf einer CD vorliegen haben, können Sie die Datei in den von Logoskop verwendeten Ordner importieren:",
+                    IDC_STATIC,10,203,140,34
+    LTEXT           "Halten Sie die Strg-Taste gedrückt und klicken Sie mit der linken Maustaste, um mehrere Dateien zu wählen",
+                    IDC_STATIC,10,164,212,20
+    CONTROL         "",IDC_DOWNLOAD_PROGRESS,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,10,181,211,10
+END
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 272, 159
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Einstellungen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Sprache der Programmoberfläche",IDC_STATIC,10,10,190,64
+    LTEXT           "Änderung wirkt beim nächsten Programmstart",IDC_STATIC,
+                    20,20,80,25
+    LISTBOX         IDC_DLGLANGLIST,110,20,80,45,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Extras",IDC_STATIC,10,83,190,63
+    DEFPUSHBUTTON   "&OK",IDOK,210,10,50,14
+    PUSHBUTTON      "&Abbrechen",IDCANCEL,210,27,50,14
+    CONTROL         "&Nur einmal pro Tag starten",IDC_START_ONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,113,170,8
+    CONTROL         "&MS Uniscribe Processor für Anzeige verwenden",
+                    IDC_USEUSP10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,96,
+                    170,8
+    CONTROL         "&Protokolldatei schreiben",IDC_WRITELOGFILE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,128,115,10
+    PUSHBUTTON      "&Anzeigen",IDC_VIEWLOGFILE,140,126,50,14
+END
+
+IDD_LAYOUT DIALOG DISCARDABLE  0, 0, 371, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Layout"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Um die Schriftart, Größe und Farbe der angezeigten Bibelworte zu ändern, verwenden Sie den Eigenschaften-Dialog (Schaltfläche ""Aa""), oder ändern Sie die Werte direkt in den Eingabefeldern.",
+                    IDC_STATIC,7,153,289,25
+    LTEXT           "Um schnell alle Einstellungen eines Textteils oder alle Einstellungen einer Bibelausgabe anderswo zu übernehmen, verwenden Sie die Schaltflächen zum Kopieren und Einfügen.",
+                    IDC_STATIC,7,182,290,20
+    LTEXT           "Hintergrundfarbe:",IDC_STATIC,12,5,70,10
+    PUSHBUTTON      "...",IDC_BKCOL_PROPS,89,5,16,14
+    GROUPBOX        "Einstellungen je Bibelausgabe",IDC_STATIC,7,64,287,84
+    LTEXT           "Bibelausgabe:",IDC_STATIC,12,29,70,10
+    COMBOBOX        IDC_LANGBIBLE_COMBO,89,29,154,130,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "C",IDC_LOSUNG_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    250,29,16,14
+    CONTROL         "P",IDC_LOSUNG_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    273,29,16,14
+    CONTROL         "Änderungen auf alle Bibelausgaben &anwenden",
+                    IDC_LAYOUT_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,89,
+                    46,203,10
+    LTEXT           "Titelzeile:",IDC_STATIC,12,76,70,10
+    EDITTEXT        IDC_TL_FONT,89,76,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TL_SIZE,196,76,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_TL_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    227,76,16,14
+    CONTROL         "C",IDC_TL_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    76,16,14
+    CONTROL         "P",IDC_TL_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    76,16,14
+    LTEXT           "Einführende Zeile:",IDC_STATIC,12,93,70,10
+    EDITTEXT        IDC_IL_FONT,89,93,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IL_SIZE,196,93,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_IL_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    227,93,16,14
+    CONTROL         "C",IDC_IL_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    93,16,14
+    CONTROL         "P",IDC_IL_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    93,16,14
+    LTEXT           "Text:",IDC_STATIC,12,110,70,10
+    EDITTEXT        IDC_L_FONT,89,110,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_L_SIZE,196,110,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_L_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,227,
+                    110,16,14
+    CONTROL         "C",IDC_L_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    110,16,14
+    CONTROL         "P",IDC_L_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    110,16,14
+    LTEXT           "Bibelstelle:",IDC_STATIC,12,127,70,10
+    EDITTEXT        IDC_SL_FONT,89,127,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SL_SIZE,196,127,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_SL_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    227,127,16,14
+    CONTROL         "C",IDC_SL_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    127,16,14
+    CONTROL         "P",IDC_SL_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    127,16,14
+    PUSHBUTTON      "Rückgängig",IDC_LAYOUT_UNDO,304,76,60,14
+    PUSHBUTTON      "Wiederherstellen",IDC_LAYOUT_REDO,304,93,60,14
+    DEFPUSHBUTTON   "&OK",IDOK,304,7,60,14
+    PUSHBUTTON      "&Abbrechen",IDCANCEL,304,27,60,14
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 254, 108
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Über Logoskop"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Logoskop",IDC_STATIC_W32LOS_VER,80,10,90,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,196,6,50,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,10,21,20
+    LTEXT           "Logoskop",IDC_STATIC,40,10,32,8
+    LTEXT           "Dieses Programm ist Freeware und darf frei verteilt werden.\n\nBitte beachten Sie das Copyright für die Textauswahl\nund für die Bibeltexte!",
+                    IDC_STATIC,40,40,207,35
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,39,29,207,1
+    LTEXT           "Homepage von Projekt Bibel 2.0: http://bible2.net/\nAutor: Helmut Steeb, hs2009@bible2.net (akt. Jahr einsetzen)",
+                    IDC_STATIC,40,76,207,25
+END
+
+IDD_DOWNLOAD DIALOG DISCARDABLE  0, 0, 254, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Das Wort herunterladen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_WWW,IDI_WWW,226,7,21,20
+    LTEXT           "",IDC_STATIC_TEXT_YEAR,7,7,180,20
+    LISTBOX         IDC_DOWNLOAD,10,30,157,110,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&Herunterladen",IDOK,176,30,70,24
+    PUSHBUTTON      "&Abbrechen",IDCANCEL,176,61,70,14
+    PUSHBUTTON      "Alle &markieren",IDC_DOWNLOAD_SELECT_ALL,176,90,70,14
+    PUSHBUTTON      "&Fehlende markieren",IDC_DOWNLOAD_SELECT_MISSING,176,
+                    110,70,14
+    LTEXT           "Weitere Info über die erste ausgewählte Datei:",
+                    IDC_STATIC,10,150,237,8
+    EDITTEXT        IDC_INFO,10,160,237,54,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_USERPASS DIALOG DISCARDABLE  0, 0, 242, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Anmeldung Proxy/Firewall"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Benutzername:",-1,10,10,80,8
+    EDITTEXT        IDC_USERNAME,100,10,130,14,ES_AUTOHSCROLL
+    LTEXT           "Kennwort:",-1,10,31,80,8
+    EDITTEXT        IDC_PASSWORD,100,30,130,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,100,50,60,14
+    PUSHBUTTON      "&Abbrechen",IDCANCEL,170,50,60,14
+END
+
+IDD_PROXY DIALOG DISCARDABLE  0, 0, 332, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Proxy-Einstellungen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Proxy-Einstellungen",-1,10,10,240,70
+    CONTROL         "vom &Internet Explorer",IDC_PROXY_PRECONFIG,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,20,25,90,10
+    CONTROL         "&kein Proxy",IDC_PROXY_DIRECT,"Button",
+                    BS_AUTORADIOBUTTON,20,39,90,10
+    CONTROL         "&Proxy-Adresse:Anschluss :",IDC_PROXY_MANUAL,"Button",
+                    BS_AUTORADIOBUTTON,20,55,100,10
+    LTEXT           "(In den meisten Firmen kommen Sie nur über einen Proxy/Firewall ins Internet.)",
+                    -1,130,20,110,30
+    EDITTEXT        IDC_PROXY,130,55,110,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,260,13,60,14
+    PUSHBUTTON      "&Abbrechen",IDCANCEL,260,30,60,14
+END
+
+IDD_SIGNATURE DIALOGEX 0, 0, 342, 397
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "E-Mail-Signatur konfigurieren"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Schließen",IDOK,255,10,74,15
+    CONTROL         "Datei ist &UTF-8",IDC_SIGNATURE_UTF8,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,255,53,74,10
+    EDITTEXT        IDC_SIGNATURE_TARGET,20,77,260,14,ES_AUTOHSCROLL | 
+                    ES_READONLY,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "...",IDC_SIGNATURE_TARGET_SELECT,285,77,20,14
+    PUSHBUTTON      "?",IDC_SIGNATURE_TEMPLATE_HELP,315,77,15,14
+    PUSHBUTTON      "&Vorlage bearbeiten...",IDC_EDIT_SIGNATURE_TEMPLATE,255,
+                    113,74,15
+    EDITTEXT        IDC_SIGNATURE_DLG_TEMPLATE,20,142,310,50,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "Datei &jetzt schreiben",IDC_WRITE_SIGNATURE,255,224,74,
+                    15,BS_MULTILINE
+    EDITTEXT        IDC_SIGNATURE_CURRENT,20,243,310,108,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL
+    CONTROL         "Signatur-Datei bei jedem Start von Logoskop &überschreiben",
+                    IDC_SIGNATURE_ON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    20,375,309,10
+    LTEXT           "Aus welcher Datei liest Ihr E-Mail-Programm die Signatur neu erstellter E-Mails?",
+                    IDC_STATIC,20,65,309,11
+    LTEXT           "Logoskop verwendet für die Signatur eine Vorlage, in der Sie Ihre E-Mail-Adresse sowie Platzhalter für die Bestandteile der Bibelworte anordnen können:",
+                    IDC_STATIC,20,113,225,25
+    LTEXT           "Aktuelle Signatur aus der Signatur-Datei (wird hier nur korrekt angezeigt für westeuropäische Sprachen, und wenn ""Datei ist UTF-8"" ausgeschaltet ist):",
+                    IDC_STATIC,20,215,225,26
+    LTEXT           "Logoskop kann bei jedem Programmstart automatisch die aktuellen Bibelworte in die Datei schreiben, die Ihr E-Mail-Programm für neu erstellte E-Mails als Signatur verwendet (nur Text, nicht für E-Mails im HTML-Format).",
+                    IDC_STATIC,10,10,235,33
+    LTEXT           "1. Signatur-Datei Ihres E-Mail-Programms",IDC_STATIC,10,
+                    53,235,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,10,46,319,1
+    LTEXT           "2. Vorlage",IDC_STATIC,10,101,319,8
+    LTEXT           "3. Testen",IDC_STATIC,10,203,319,8
+    LTEXT           "4. Einschalten",IDC_STATIC,10,362,319,8
+END
+
+IDD_SIGNATURE_TEMPLATE DIALOG DISCARDABLE  0, 0, 407, 341
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Vorlage für E-Mail-Signatur bearbeiten"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SIGNATURE_TEMPLATE_TEXT,10,20,305,125,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "&Bestandteil von Das Wort:",IDC_STATIC,10,150,100,8
+    COMBOBOX        IDC_SIGNATURE_KEYWORDS,110,150,120,75,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Platzhalter &einfügen",IDC_INSERT_SIGNATURE_KEYWORD,240,
+                    150,75,14
+    PUSHBUTTON      "&Aktualisieren",IDC_UPDATE_SIGNATURE,240,180,75,14
+    EDITTEXT        IDC_SIGNATURE_PREVIEW,10,200,305,135,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,325,20,75,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,325,41,75,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,10,170,305,1
+    LTEXT           "Vorlage:",IDC_STATIC,10,10,165,8
+    LTEXT           "Vorschau der Signatur für den heutigen Text:",
+                    IDC_STATIC,10,185,166,8
+END
+
+IDD_POST_PAIR DIALOG DISCARDABLE  0, 0, 390, 390
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ergänzende Bibelworte vorschlagen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_POSTPAIR,IDI_POSTPAIR,7,5,20,20
+    LTEXT           """Die Bibel erklärt sich selber"" -\nSenden Sie uns direkt übers Internet Paare von ergänzenden Bibelworten, die Sie gefunden haben!\nWir prüfen diese und veröffentlichen sie unter bible2.net; ausgewählte Paare von Bibelworten verwenden wir für Das Wort.",
+                    IDC_STATIC,40,5,260,40
+    GROUPBOX        "Ergänzende Bibelworte",IDC_STATIC,7,50,310,115
+    LTEXT           "Bibelstelle",IDC_STATIC,80,80,110,10
+    LTEXT           "bitte geben Sie den Wortlaut (Anfang ... Ende) an, wenn das Bibelwort Versteile enthält",
+                    IDC_STATIC,195,63,110,25
+    LTEXT           "1. Bibelwort:",IDC_STATIC,15,90,60,10
+    EDITTEXT        IDC_PAROL1,80,90,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONTEXT_PAROL1,195,90,110,24,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL
+    LTEXT           "2. Bibelwort:",IDC_STATIC,15,120,50,10
+    EDITTEXT        IDC_PAROL2,80,120,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONTEXT_PAROL2,195,120,110,24,ES_AUTOHSCROLL
+    LTEXT           "Beispiel:",IDC_STATIC,15,150,60,10
+    LTEXT           "1. Mose 1,1-2",IDC_STATIC,80,150,110,10,SS_SUNKEN
+    LTEXT           "Im Anfang... war wüst und leer.",IDC_STATIC,195,150,110,
+                    10,SS_SUNKEN
+    GROUPBOX        "Bibelausgabe",IDC_STATIC,7,170,310,30
+    LTEXT           "Die Bibelstellen beziehen sich auf die Bibelausgabe",
+                    IDC_STATIC,15,180,170,18
+    EDITTEXT        IDC_BIBLEEDITION,195,180,110,14,ES_AUTOHSCROLL
+    GROUPBOX        "Reihenfolge der Bibelworte",IDC_STATIC,7,205,310,55
+    LTEXT           "Die Bibelworte passen...",IDC_STATIC,14,215,100,20
+    CONTROL         "nur in dieser Reihenfolge",IDC_ORDER_THIS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,195,215,100,
+                    10
+    CONTROL         "auch umgekehrt",IDC_ORDER_BOTH,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,230,100,10
+    CONTROL         "(weiß nicht)",IDC_ORDER_DONTKNOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,245,100,10
+    GROUPBOX        "Art der Ergänzung",IDC_STATIC,7,265,310,100,WS_GROUP
+    LTEXT           "Wenn Sie vom 1. Bibelwort ausgehen, ist das 2. Bibelwort...",
+                    IDC_STATIC,15,275,290,10
+    CONTROL         "ein Beispiel",IDC_TYPE_EXAMPLE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,20,290,120,10
+    CONTROL         "ein Gegensatz",IDC_TYPE_OPPOSITE,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,20,305,120,10
+    CONTROL         "die neutestamentliche Erfüllung",IDC_TYPE_FULFILLMENT,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,20,320,120,10
+    CONTROL         "eine Auslegung/Erklärung",IDC_TYPE_EXPLANATION,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,20,335,120,10
+    CONTROL         "eine Weiterführung",IDC_TYPE_EXTENSION,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,20,350,120,10
+    CONTROL         "ein Zitat",IDC_TYPE_CITATION,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,290,120,10
+    CONTROL         "eine Parallelstelle\n(Evangelien, Chronik/Könige...)",
+                    IDC_TYPE_PARALLEL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_MULTILINE | WS_TABSTOP,195,300,120,20
+    CONTROL         "folgende Ergänzung:",IDC_TYPE_OTHER,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,320,120,10
+    CONTROL         "(weiß nicht)",IDC_TYPE_DONTKNOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,350,120,10
+    EDITTEXT        IDC_TYPE_TEXT_OTHER,210,330,95,14,ES_AUTOHSCROLL | 
+                    WS_GROUP
+    CONTROL         "Dieses Bibelspruch-Paar ist frei von Rechten Dritter (z.B. nicht aus Herrnhuter Losung entnommen)",
+                    IDC_THIRDPARTYFREE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    20,370,360,14
+    DEFPUSHBUTTON   "&Schließen",IDOK,325,10,60,14
+    LTEXT           "Angezeigtes Bibelwort einfügen:",IDC_STATIC,325,55,60,
+                    25
+    PUSHBUTTON      "&1. Bibelwort",IDC_INSERT_PAROL1,325,80,60,14
+    PUSHBUTTON      "&2. Bibelwort",IDC_INSERT_PAROL2,325,100,60,14
+    PUSHBUTTON      "&Vertauschen",IDC_SWAP,325,130,60,14
+    PUSHBUTTON      "&Rücksetzen",IDC_RESET,325,150,60,14
+    PUSHBUTTON      "Vorschlag\n&absenden",IDC_SEND,325,270,60,25,
+                    BS_MULTILINE
+    PUSHBUTTON      "&Proxy...",IDC_POST_PAIR_PROXY,325,300,60,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,2,0
+ PRODUCTVERSION 3,0,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Helmut Steeb hs2009@bible2.net (akt. Jahr einsetzen)\0"
+            VALUE "FileDescription", "Logoskop - Betrachter für ""Das Wort"" von Projekt Bibel 2.0.\0"
+            VALUE "FileVersion", "3.0.2  2009-09-30\0"
+            VALUE "InternalName", "Logoskop\0"
+            VALUE "LegalCopyright", "MPL 1.0; http://www.mozilla.org/MPL/\0"
+            VALUE "LegalTrademarks", " \0"
+            VALUE "OriginalFilename", "Logoskop.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Logoskop-Anwendung\0"
+            VALUE "ProductVersion", "3, 0, 2, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LANGPACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_ORGANIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_LAYOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 101
+    END
+
+    IDD_DOWNLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_USERPASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_PROXY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_SIGNATURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 390
+    END
+
+    IDD_SIGNATURE_TEMPLATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_POST_PAIR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 382
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Logoskop\nDas Wort\nDas Wort twd-Datei\nDas Wort twd-Datei (*.twd)\n.twd\nLogoskop.Document\nLogoskop Document"
+    IDS_DEFAULT_FONT        "MS Sans Serif"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Logoskop"
+    AFX_IDS_IDLEMESSAGE     "Fertig"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Zeigt Informationen über das Programm, die Version und Copyright\nÜber Logoskop"
+    ID_APP_EXIT             "Beendet das Programm\nBeenden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_COPY            "Kopiert den Text in die Zwischenablage\nKopieren (Strg+C)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INSTALL_OK          "Das Wort wird nun bei jedem Start von Windows angezeigt!"
+    IDS_FILEREAD_ERR        "Für das gewählte Datum %4d-%02d-%02d\nist leider keine Datei für Das Wort vorhanden.\nBitte wählen Sie ein anderes Datum.\n"
+    IDS_FILEREADDAY_ERR     "Die Datei für Das Wort enthält leider keine Bibelworte für %4d-%02d-%02d.\nBitte wählen Sie ein anderes Datum.\n"
+    IDS_CLIPBOARDERR        "Die Daten konnten nicht in die Zwischenablage übertragen werden."
+    IDS_USE_NEXT_YEAR       "Willkommen bei Logoskop, dem Betrachter für ""Das Wort"" von Projekt Bibel 2.0!\n\nDieses Programmpaket enthält leider keine Bibelworte für das Jahr %d.\nStattdessen werden als Behelf die Bibelworte für %d angezeigt.\n\nÜber Menü ""Datei | Das Wort aktualisieren"" können Sie Bibelworte des laufenden Jahres\nvon bible2.net herunterladen (soweit sie dort verfügbar sind).\n\nÜber Menü ""Datei | Das Wort organisieren"" können Sie Bibelworte\nfür weitere Bibelausgaben und Jahre herunterladen.\n\nGott segne Sie beim Betrachten Seines Wortes!"
+    IDS_WRITEERR            "Fehler beim Schreiben einer Ausgabedatei\n\n(zuwenig Speicher? Datei schreibgeschützt?)"
+    IDS_WRITEERR_1          "Datei nicht schreibbar (Laufwerk voll? Datei schreibgeschützt?)"
+    IDS_LOZ_NOTLOZ          "Die gewählte Datei ist keine Datei für Das Wort (*.twd)!"
+    IDS_INSTALLED           "%d Dateien für Das Wort wurden erfolgreich installiert!"
+    IDS_INSTALLED_1         "wurde installiert"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_MONTHNEXT       "Wechselt zum nächsten Monat\nMonat nachher (Strg+N)"
+    ID_VIEW_MONTHPREVIOUS   "Wechselt zum früheren Monat\nMonat vorher (Strg+P)"
+    ID_VIEW_DAYFORTH        "Wechselt zum nächsten Tag\nTag vorwärts (Strg+F)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_ACTUALIZE       "Datei für Das Wort des aktuellen oder nächsten Jahres von bible2.net herunterladen"
+    ID_FILE_ORGANIZE        "Dateien für Das Wort herunterladen, anzeigen, löschen oder installieren\nDas Wort organisieren (Strg+O)"
+    ID_FILE_SIGNATURE       "E-Mail-Signatur konfigurieren\nE-Mail-Signatur konfigurieren"
+    IDS_SIGNATURE_TARGET_EMPTY 
+                            "Sie haben keine Signatur-Datei angegeben. Wollen Sie das automatische Schreiben der Signatur deaktivieren und den Dialog verlassen?"
+    IDS_SIGNATURE_TARGET_NOT_EXIST 
+                            "Die angegebene Signatur-Datei\n\n%s\n\nwurde nicht gefunden!\n\nWollen Sie das automatische Schreiben der Signatur deaktivieren und den Dialog verlassen?"
+    IDS_SIGNATURE_TARGET_SELECT_TITLE "Signatur-Datei wählen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_STARTUPFLDR     "Trägt das Programm im Autostart-Ordner ein, so dass es beim Start von Windows automatisch Das Wort anzeigt"
+    ID_EDIT_LAYOUT          "Layout-Einstellungen (Schriftarten, Farbe)\nLayout-Einstellungen (Strg+L)"
+    ID_EDIT_OPTIONS         "Grundlegende Einstellungen des Programmes bearbeiten\nEinstellungen"
+    ID_EDIT_POST_PAIR       "Ergänzende Bibelworte vorschlagen\nErgänzende Bibelworte vorschlagen (Strg+R)"
+    ID_VIEW_XLAT            "Zeigt Copyright für die Auswahl der Bibelstellen und die verwendete Bibelausgabe"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILE_NOT_FOUND      "Das Wort für die Sprache '%s' und das Jahr %d ist (noch) nicht verfügbar. Sie können es in ein paar Tagen wieder versuchen, oder direkt in http://bible2.net nachsehen."
+    IDS_HELPFILE_PROGRAM    "DEreadme.htm"
+    IDS_LOADSHELL32_FAILED  "Die benötigte Systembibliothek shell32.dll ist auf Ihrem System nicht vorhanden (vermutlich ist die Windows-Version zu alt)."
+    IDS_OPENFILE_FAILED     "Leider kann der Text nicht angezeigt werden (%s)"
+    IDS_GETSHELLEXECUTE_FAILED 
+                            "Die Systembibliothek shell32.dll ist vermutlich zu alt (Routine fehlt; Fehlercode %d)"
+    IDS_XLAT_USED           "Copyright"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Zeigt oder verbirgt die  Symbolleiste\nSymbolleiste umschalten"
+    ID_VIEW_STATUS_BAR      "Zeigt oder verbirgt die Statuszeile\nStatuszeile umschalten"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Fenstergröße ändern"
+    AFX_IDS_SCMOVE          "Fensterposition verschieben"
+    AFX_IDS_SCMINIMIZE      "Fenster zu Symbol minimieren"
+    AFX_IDS_SCMAXIMIZE      "Fenster auf volle Größe maximieren"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Ursprüngliche Fenstergröße wiederherstellen"
+    AFX_IDS_SCTASKLIST      "Taskleiste aktivieren"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_DAYBACK         "Wechselt zum vorigen Tag\nTag vorher (Strg+B)"
+    ID_VIEW_TODAY           "Wechselt zum heutigen Tag\nHeute (Strg+H)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INSTALL_TITLE       "Dateien für Das Wort installieren"
+    IDS_INSTALL_STR         "Datei für Das Wort (*.twd)"
+    IDS_INSTALL_EXT         "*.twd"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HELP_PROGRAM         "Informationen zum Programm Logoskop anzeigen (im Browser)\nInformationen zum Programm Logoskop anzeigen (im Browser)"
+    ID_HELP_PROJECT         "Die Homepage von Projekt Bibel 2.0 im Internet anzeigen (im Browser)\nProjekt Bibel 2.0 im Internet"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_GET_VER_FAILED      "Interner Fehler - das Programm kann nicht ausgeführt werden!\n\nDie Version der Programmbibliothek %s konnte nicht festgestellt werden."
+    IDS_POSTPAIR_DATA_MISSING 
+                            "Bitte geben Sie zwei Bibelstellen und die verwendete Bibelausgabe an!"
+    IDS_NO_FILE_TO_ACTIVATE "Alle angezeigten Bibelausgaben sind bereits aktualisiert."
+    IDS_REALLYDELETE        "Wollen Sie die ausgewählten Dateien wirklich von Ihrem Rechner löschen?"
+    IDS_DELETE_EACCES       "Die Datei %s kann leider nicht gelöscht werden (mögliche Ursache: Schreibschutz oder Verwendung durch ein anderes Programm)."
+    IDS_GETLIST_FAILED      "Die Liste der verfügbaren Dateien kann nicht heruntergeladen werden:\n\n"
+    IDS_NOSESSION           "Die Internet-Verbindung konnte nicht aufgebaut werden. \n\nTipps:\n- ist Ihr Modem funktionsfähig?\n- haben Sie die richtige Proxy-/Firewall-Adresse angegeben?"
+    IDS_INVALID_URL         "Die Internet-Adresse %s ist ungültig."
+    IDS_INTERNET_ERROR      "Beim Herunterladen aus dem Internet ist ein Fehler aufgetreten."
+    IDS_GETFILE_FAILED      "Die Datei kann nicht heruntergeladen werden:\n\n"
+    IDS_FILENOTAVAIL        "nicht verfügbar"
+    IDS_URL_NOT_FOUND       "Der Internet-Server stellt den Dienst zum Herunterladen nicht unter der erwarteten Adresse %s zur Verfügung.\n\nHaben Sie die richtige Proxy-/Firewall-Adresse angegeben?"
+    IDS_HTTP_STATUS         "Der Internet-Server antwortete mit dem Statuscode %d."
+    IDS_AUTHOR              " Wenn der Fehler wiederholt auftritt, setzen Sie sich bitte mit dem Programmautor in Verbindung."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SERVER_NOT_FOUND    "Der Internet-Server für die Adresse %s wurde nicht gefunden. Er ist möglicherweise vorübergehend nicht erreichbar."
+    IDS_DOWNLOAD_TEXTS_YEAR "Dateien für Das Wort auf %s für %d:"
+    IDS_GETTING_FILELIST    "Liste der Dateien herunterladen..."
+    IDS_GETTING_FILE        "herunterladen..."
+    IDS_INSTALLING_FILE     "installieren..."
+    IDS_FRAME_TITLE         "Das Wort %s - Logoskop"
+    IDS_POSTPAIR_FAILED     "Leider trat beim Übertragen Ihres Vorschlags zum Server ein Fehler auf:\n\n"
+    IDS_POSTPAIR_OK         "Vielen Dank - Ihr Vorschlag wurde an den Internet-Server übertragen!\n\nWenn Sie möchten, können Sie weitere ergänzende Bibelworte vorschlagen, indem Sie die Bibelstellen ändern und den neuen Vorschlag absenden."
+    IDS_PLEASE_THIRDPARTYFREE 
+                            "Bitte bestätigen Sie, dass diese Kombination frei von Rechten Dritter ist (Kontrollkästchen ganz unten)!\n\n(Dieser Hinweis macht uns keine Freude, erspart uns aber hoffentlich manchen Ärger.)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_MAINBAR_LANGBOX     "Sprache und Bibelausgabe des ersten Textes wählen\nSprache und Bibelausgabe des ersten Textes wählen"
+    IDC_MAINBAR_LANGBOX2    "Sprache und Bibelausgabe des zweiten Textes wählen\nSprache und Bibelausgabe des zweiten Textes wählen"
+    IDC_MAINBAR_DATETIME    "Datum wählen\nDatum wählen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SIGNATURE_STR       "Signatur-Datei (*.txt)"
+    IDS_SIGNATURE_EXT       "*.txt"
+    IDS_SIGNATURE_TARGET_EMPTY_NOWRITE 
+                            "Sie haben keine Signatur-Datei angegeben!"
+    IDS_SIGNATURE_TEMPLATE_WRITE_FAILED 
+                            "Die Vorlage konnte nicht in die Datei\n\n""%s""\n\ngeschrieben werden. Das sollte nicht vorkommen.\nVielleicht können Sie in der Datei Logoskop.ini eine andere Vorlagendatei bestimmen."
+    IDS_SIGNATURE_TEMPLATE_EMPTY_NOWRITE 
+                            "Sie haben keine Signatur-Vorlage angegeben!"
+    IDS_SIGNATURE_TEMPLATE_KW_LOSUNG "Das Wort (vollständig)"
+    IDS_SIGNATURE_TEMPLATE_KW_TL "Datumszeile"
+    IDS_SIGNATURE_TEMPLATE_KW_OT "Das Wort (1. Bibelwort)"
+    IDS_SIGNATURE_TEMPLATE_KW_NT "Das Wort (2. Bibelwort)"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Actualize The Word...\tCtrl+A", ID_FILE_ACTUALIZE
+        MENUITEM "&Organize The Word...\tCtrl+O", ID_FILE_ORGANIZE
+        MENUITEM "Configure &Email signature...", ID_FILE_SIGNATURE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "Suggest &related bible quotations...\tCtrl+R", 
+                                                ID_EDIT_POST_PAIR
+        MENUITEM "&Layout...\tCtrl+L",          ID_EDIT_LAYOUT
+        MENUITEM "&Options...",                 ID_EDIT_OPTIONS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Month &previous\tCtrl+P",     ID_VIEW_MONTHPREVIOUS
+        MENUITEM "Day &back\tCtrl+B",           ID_VIEW_DAYBACK
+        MENUITEM "To&day\tCtrl+T",              ID_VIEW_TODAY
+        MENUITEM "Day &forth\tCtrl+F",          ID_VIEW_DAYFORTH
+        MENUITEM "Month &next\tCtrl+N",         ID_VIEW_MONTHNEXT
+        MENUITEM SEPARATOR
+        MENUITEM "&Copyright",                  ID_VIEW_XLAT
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Program help...",            ID_HELP_PROGRAM
+        MENUITEM "Project &Bible 2.0 on the Internet...", ID_HELP_PROJECT
+        MENUITEM "&About Logoskop...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_FILE_ACTUALIZE,      VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_VIEW_DAYBACK,        VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_EDIT_POST_PAIR,      VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_VIEW_DAYFORTH,       VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_EDIT_LAYOUT,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_VIEW_MONTHNEXT,      VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_ORGANIZE,       VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_VIEW_MONTHPREVIOUS,  VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_VIEW_TODAY,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LANGPACK DIALOG DISCARDABLE  0, 0, 332, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Actualize The Word"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Download The Word from the Internet",IDC_STATIC,10,10,
+                    240,120
+    LTEXT           "&Year",IDC_STATIC,20,20,80,8
+    CONTROL         "",IDC_YEAR1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,100,
+                    20,50,10
+    CONTROL         "",IDC_YEAR2,"Button",BS_AUTORADIOBUTTON,100,35,50,10
+    LTEXT           "(The Word files for %d will be available not before September %d)",
+                    IDC_YEAR_HINT,150,20,90,30
+    LTEXT           "Language/bible edition:",IDC_STATIC,20,50,80,8
+    EDITTEXT        IDC_CURRDOCLANG,100,50,140,74,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY
+    DEFPUSHBUTTON   "&Download",IDOK,260,13,60,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,260,30,60,14
+    PUSHBUTTON      "&Proxy...",IDC_LANGPACK_PROXY,260,50,60,14
+    CONTROL         "Automatically display this dialog (menu File | Actualize The Word) again next month if any of the files for %d are still missing on your computer",
+                    IDC_AUTOLANGPACK,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,10,135,240,25
+END
+
+IDD_ORGANIZE DIALOG DISCARDABLE  0, 0, 228, 228
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Organize The Word files"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_COMPUTER,IDI_COMPUTER,199,7,21,20
+    LTEXT           "The Word files installed on your computer...",
+                    IDC_STATIC,7,7,180,15
+    LTEXT           "... for the &year:",IDC_STATIC,7,20,80,8
+    COMBOBOX        IDC_YEARCOMBO,90,20,60,70,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LISTINSTALLED,10,40,140,115,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Close",IDOK,160,40,60,14
+    DEFPUSHBUTTON   "&View selected",IDC_ORGANIZE_VIEW,160,60,60,14
+    PUSHBUTTON      "Downl&oad more...",IDC_DOWNLOAD,160,87,60,24
+    PUSHBUTTON      "&Delete...",IDC_DELETE,159,140,60,14
+    PUSHBUTTON      "&Proxy settings...",IDC_ORGANIZE_PROXY,159,116,60,14
+    PUSHBUTTON      "&Import...",IDC_UNPACK,160,201,60,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,10,193,209,1
+    LTEXT           "Import a The Word (.twd) file (downloaded or from a CD) into the Logoskop data folder:",
+                    IDC_STATIC,10,201,140,20
+    LTEXT           "Hold Ctrl key and click left mouse to select multiple files.",
+                    IDC_STATIC,10,159,142,18
+    CONTROL         "",IDC_DOWNLOAD_PROGRESS,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,10,178,211,10
+END
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 272, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "User &interface language",IDC_STATIC,10,10,190,68
+    LTEXT           "Change takes effect after next start of program",
+                    IDC_STATIC,20,20,80,25
+    LISTBOX         IDC_DLGLANGLIST,110,20,80,51,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Extras",IDC_STATIC,7,87,190,60
+    DEFPUSHBUTTON   "OK",IDOK,210,10,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,210,27,50,14
+    CONTROL         "Start only &once per day",IDC_START_ONCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,114,170,8
+    CONTROL         "Use &MS Uniscribe Processor for display",IDC_USEUSP10,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,97,170,8
+    CONTROL         "&Write logfile",IDC_WRITELOGFILE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,129,115,10
+    PUSHBUTTON      "&View logfile",IDC_VIEWLOGFILE,140,127,50,14
+END
+
+IDD_LAYOUT DIALOG DISCARDABLE  0, 0, 371, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Layout"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "To modify font name, size and colour of the bible verses, use the properties dialog (""Aa"" button), or directly modify the values in the edit fields.",
+                    IDC_STATIC,7,154,290,20
+    LTEXT           "To apply all settings of one text part or even all settings of a bible edition to another one, use the Copy and Paste buttons.",
+                    IDC_STATIC,7,173,290,20
+    LTEXT           "Background colour:",IDC_STATIC,12,6,70,10
+    PUSHBUTTON      "...",IDC_BKCOL_PROPS,89,6,16,14
+    GROUPBOX        "Settings for text parts of selected bible edition",
+                    IDC_STATIC,7,63,288,85
+    LTEXT           "Bible edition:",IDC_STATIC,12,27,70,10
+    COMBOBOX        IDC_LANGBIBLE_COMBO,89,27,154,130,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "C",IDC_LOSUNG_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    250,27,16,14
+    CONTROL         "P",IDC_LOSUNG_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    273,27,16,14
+    CONTROL         "&Apply modifications to all bible editions",
+                    IDC_LAYOUT_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,89,
+                    43,150,10
+    LTEXT           "Title line:",IDC_STATIC,12,76,70,10
+    EDITTEXT        IDC_TL_FONT,89,76,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TL_SIZE,196,76,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_TL_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    227,76,16,14
+    CONTROL         "C",IDC_TL_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    76,16,14
+    CONTROL         "P",IDC_TL_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    76,16,14
+    LTEXT           "Introduction line:",IDC_STATIC,12,93,70,10
+    EDITTEXT        IDC_IL_FONT,89,93,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IL_SIZE,196,93,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_IL_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    227,93,16,14
+    CONTROL         "C",IDC_IL_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    93,16,14
+    CONTROL         "P",IDC_IL_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    93,16,14
+    LTEXT           "Text:",IDC_STATIC,12,110,70,10
+    EDITTEXT        IDC_L_FONT,89,110,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_L_SIZE,196,110,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_L_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,227,
+                    110,16,14
+    CONTROL         "C",IDC_L_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    110,16,14
+    CONTROL         "P",IDC_L_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    110,16,14
+    LTEXT           "Bible reference:",IDC_STATIC,12,127,70,10
+    EDITTEXT        IDC_SL_FONT,89,127,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SL_SIZE,196,127,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "...",IDC_SL_PROPS,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    227,127,16,14
+    CONTROL         "C",IDC_SL_COPY,"Button",BS_OWNERDRAW | WS_TABSTOP,250,
+                    127,16,14
+    CONTROL         "P",IDC_SL_PASTE,"Button",BS_OWNERDRAW | WS_TABSTOP,273,
+                    127,16,14
+    PUSHBUTTON      "&Undo",IDC_LAYOUT_UNDO,304,76,60,14
+    PUSHBUTTON      "&Redo",IDC_LAYOUT_REDO,304,93,60,14
+    DEFPUSHBUTTON   "&OK",IDOK,304,7,60,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,304,27,60,14
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 253, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Logoskop"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Logoskop",IDC_STATIC_W32LOS_VER,80,10,90,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,195,7,50,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,10,21,20
+    LTEXT           "Logoskop",IDC_STATIC,40,10,32,8
+    LTEXT           "This program is freeware. You may use and distribute it freely!\n\nPlease respect the copyright of the bible words selection\nand of the bible editions (see menu View - Copyright).",
+                    IDC_STATIC,40,40,206,34
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,39,29,205,1
+    LTEXT           "Homepage of Project Bible 2.0: http://bible2.net/\nAuthor: Helmut Steeb, hs2009@bible2.net (insert current year)",
+                    IDC_STATIC,40,77,204,19
+END
+
+IDD_DOWNLOAD DIALOG DISCARDABLE  0, 0, 254, 221
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Download The Word files"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_WWW,IDI_WWW,224,7,21,20
+    LTEXT           "",IDC_STATIC_TEXT_YEAR,7,7,210,20
+    LISTBOX         IDC_DOWNLOAD,10,30,167,110,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&Download",IDOK,186,30,60,24
+    PUSHBUTTON      "&Cancel",IDCANCEL,186,61,60,14
+    PUSHBUTTON      "Select &all",IDC_DOWNLOAD_SELECT_ALL,186,90,60,14
+    PUSHBUTTON      "Select &missing",IDC_DOWNLOAD_SELECT_MISSING,186,110,60,
+                    14
+    LTEXT           "Additional info about the first selected file:",
+                    IDC_STATIC,10,150,225,8
+    EDITTEXT        IDC_INFO,10,160,237,54,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_USERPASS DIALOG DISCARDABLE  0, 0, 242, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login for proxy/firewall"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Username:",-1,10,10,80,8
+    EDITTEXT        IDC_USERNAME,100,10,130,14,ES_AUTOHSCROLL
+    LTEXT           "Password:",-1,10,31,80,8
+    EDITTEXT        IDC_PASSWORD,100,30,130,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,100,50,60,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,170,50,60,14
+END
+
+IDD_PROXY DIALOG DISCARDABLE  0, 0, 332, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Proxy configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Proxy configuration",-1,10,10,240,70
+    CONTROL         "from &Internet Explorer",IDC_PROXY_PRECONFIG,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,20,25,90,10
+    CONTROL         "&no proxy",IDC_PROXY_DIRECT,"Button",BS_AUTORADIOBUTTON,
+                    20,39,90,10
+    CONTROL         "&proxy address:port :",IDC_PROXY_MANUAL,"Button",
+                    BS_AUTORADIOBUTTON,20,55,110,10
+    LTEXT           "(In most companies you connect to the Internet using a proxy/firewall.)",
+                    -1,130,20,110,30
+    EDITTEXT        IDC_PROXY,130,55,110,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,260,13,60,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,260,30,60,14
+END
+
+IDD_SIGNATURE DIALOGEX 0, 0, 342, 367
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configure email signature"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,255,10,75,15
+    CONTROL         "file is in &UTF-8",IDC_SIGNATURE_UTF8,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,255,44,74,10
+    EDITTEXT        IDC_SIGNATURE_TARGET,20,67,260,14,ES_AUTOHSCROLL | 
+                    ES_READONLY,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "...",IDC_SIGNATURE_TARGET_SELECT,285,67,20,14
+    PUSHBUTTON      "?",IDC_SIGNATURE_TEMPLATE_HELP,314,67,15,14
+    PUSHBUTTON      "&Edit template...",IDC_EDIT_SIGNATURE_TEMPLATE,255,106,
+                    75,15
+    EDITTEXT        IDC_SIGNATURE_DLG_TEMPLATE,20,127,310,50,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "Write to file &now",IDC_WRITE_SIGNATURE,255,202,75,15,
+                    BS_MULTILINE
+    EDITTEXT        IDC_SIGNATURE_CURRENT,20,220,310,108,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL
+    CONTROL         "&Overwrite signature file at each start of Logoskop",
+                    IDC_SIGNATURE_ON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    20,352,310,10
+    LTEXT           "From which file does your email program read the signature of new emails?",
+                    IDC_STATIC,20,56,310,11
+    LTEXT           "For creating the signature, Logoskop uses a template in which you may place your email address and placeholders for parts of the bible words:",
+                    IDC_STATIC,20,106,225,19
+    LTEXT           "Current signature from the signature file (shown properly here only for western European languages and ""file is in UTF-8"" checked off):",
+                    IDC_STATIC,20,200,225,19
+    LTEXT           "At program startup, Logoskop can automatically write the current bible words into the file that your email program uses as a signature for new emails (text only, not for emails in HTML format).",
+                    IDC_STATIC,10,10,235,25
+    LTEXT           "2. Template",IDC_STATIC,10,94,320,8
+    LTEXT           "1. Signature file of your email program",IDC_STATIC,10,
+                    44,235,8
+    LTEXT           "4. Activate",IDC_STATIC,10,340,320,8
+    LTEXT           "3. Test it",IDC_STATIC,10,188,320,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,10,38,320,1
+END
+
+IDD_SIGNATURE_TEMPLATE DIALOG DISCARDABLE  0, 0, 407, 341
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit template for email signature"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SIGNATURE_TEMPLATE_TEXT,10,20,305,125,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "&Part of The Word:",IDC_STATIC,10,150,100,8
+    COMBOBOX        IDC_SIGNATURE_KEYWORDS,110,150,120,75,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Insert placeholder",IDC_INSERT_SIGNATURE_KEYWORD,240,
+                    150,75,14
+    PUSHBUTTON      "&Update",IDC_UPDATE_SIGNATURE,240,180,75,14
+    EDITTEXT        IDC_SIGNATURE_PREVIEW,10,200,305,135,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,325,20,75,14
+    PUSHBUTTON      "Cancel",IDCANCEL,325,41,75,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,10,170,305,1
+    LTEXT           "Template:",IDC_STATIC,10,10,200,8
+    LTEXT           "Preview of signature for current The Word text:",
+                    IDC_STATIC,10,185,166,8
+END
+
+IDD_POST_PAIR DIALOG DISCARDABLE  0, 0, 390, 390
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Suggest related bible quotations"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_POSTPAIR,IDI_POSTPAIR,7,5,20,20
+    LTEXT           "Participate! ""Scripture explains itself"" -\nSend us directly via Internet one or more pairs of related bible quotations that you have found!\nWe'll review these and publish them in bible2.net; selected pairs of bible quotations will be used for The Word.",
+                    IDC_STATIC,40,5,260,40
+    GROUPBOX        "Related bible quotations",IDC_STATIC,7,50,310,115
+    LTEXT           "Bible reference",IDC_STATIC,80,80,110,10
+    LTEXT           "Please write the text (start ... end) if the quotation contains verse parts",
+                    IDC_STATIC,195,63,110,25
+    LTEXT           "1. quotation:",IDC_STATIC,15,90,60,10
+    EDITTEXT        IDC_PAROL1,80,90,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONTEXT_PAROL1,195,90,110,24,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL
+    LTEXT           "2. quotation",IDC_STATIC,15,120,50,10
+    EDITTEXT        IDC_PAROL2,80,120,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONTEXT_PAROL2,195,120,110,24,ES_AUTOHSCROLL
+    LTEXT           "Example:",IDC_STATIC,15,150,60,10
+    LTEXT           "Genesis 1,1-2",IDC_STATIC,80,150,110,10,SS_SUNKEN
+    LTEXT           "In the beginning... void.",IDC_STATIC,195,150,110,10,
+                    SS_SUNKEN
+    GROUPBOX        "Bible edition",IDC_STATIC,7,170,310,30
+    LTEXT           "Bible references are for",IDC_STATIC,15,180,170,18
+    EDITTEXT        IDC_BIBLEEDITION,195,180,110,14,ES_AUTOHSCROLL
+    GROUPBOX        "Order of quotations",IDC_STATIC,7,205,310,55
+    LTEXT           "The bible quotations complement one another...",
+                    IDC_STATIC,14,215,100,20
+    CONTROL         "only in this order",IDC_ORDER_THIS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,195,215,100,
+                    10
+    CONTROL         "swapped also",IDC_ORDER_BOTH,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,230,100,10
+    CONTROL         "(don't know)",IDC_ORDER_DONTKNOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,245,100,10
+    GROUPBOX        "Kind of relation",IDC_STATIC,7,265,310,100,WS_GROUP
+    LTEXT           "Based on the first quotation, the second quotation is...",
+                    IDC_STATIC,15,275,290,10
+    CONTROL         "an example",IDC_TYPE_EXAMPLE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,20,290,120,10
+    CONTROL         "a contrast",IDC_TYPE_OPPOSITE,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,20,305,120,10
+    CONTROL         "the New Testament fulfillment",IDC_TYPE_FULFILLMENT,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,20,320,120,10
+    CONTROL         "an interpretation/explanation",IDC_TYPE_EXPLANATION,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,20,335,120,10
+    CONTROL         "an increase",IDC_TYPE_EXTENSION,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,20,350,120,10
+    CONTROL         "a citation",IDC_TYPE_CITATION,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,290,120,10
+    CONTROL         "a parallel scripture\n(gospels, Chronicles/Kings...)",
+                    IDC_TYPE_PARALLEL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_MULTILINE | WS_TABSTOP,195,300,120,20
+    CONTROL         "the following relation:",IDC_TYPE_OTHER,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,320,120,10
+    CONTROL         "(don't know)",IDC_TYPE_DONTKNOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,195,350,120,10
+    EDITTEXT        IDC_TYPE_TEXT_OTHER,210,330,95,14,ES_AUTOHSCROLL | 
+                    WS_GROUP
+    CONTROL         "This bible quotation pair is free of third party claims (e.g. not taken from Moravian Watchword)",
+                    IDC_THIRDPARTYFREE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    20,370,360,14
+    DEFPUSHBUTTON   "&Close",IDOK,325,10,60,14
+    LTEXT           "Insert quotation displayed:",IDC_STATIC,325,55,60,25
+    PUSHBUTTON      "&1. quotation",IDC_INSERT_PAROL1,325,80,60,14
+    PUSHBUTTON      "&2. quotation",IDC_INSERT_PAROL2,325,100,60,14
+    PUSHBUTTON      "S&wap",IDC_SWAP,325,130,60,14
+    PUSHBUTTON      "&Reset",IDC_RESET,325,150,60,14
+    PUSHBUTTON      "&Send\nsuggestion",IDC_SEND,325,270,60,25,BS_MULTILINE
+    PUSHBUTTON      "&Proxy...",IDC_POST_PAIR_PROXY,325,300,60,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,2,0
+ PRODUCTVERSION 3,0,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Mozilla Public License Version 1.0; http://www.mozilla.org/MPL/\r\nThe Initial Developer of the Original Code is Helmut Steeb.\0"
+            VALUE "CompanyName", "Helmut Steeb hs2009@bible2.net (insert current year)\0"
+            VALUE "FileDescription", "Logoskop - viewer for ""The Word"" of project Bible 2.0.\0"
+            VALUE "FileVersion", "3.0.2  2009-09-30\0"
+            VALUE "InternalName", "Logoskop\0"
+            VALUE "LegalCopyright", "MPL 1.0; http://www.mozilla.org/MPL/\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Logoskop.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Logoskop application\0"
+            VALUE "ProductVersion", "3, 0, 2, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LANGPACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_ORGANIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_LAYOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 369
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_DOWNLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_USERPASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_PROXY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_POST_PAIR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 382
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Logoskop\nThe Word\nThe Word twd file\nThe Word twd file (*.twd)\n.twd\nLogoskop.Document\nLogoskop Document"
+    IDS_DEFAULT_FONT        "MS Sans Serif"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Logoskop"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout Logoskop"
+    ID_APP_EXIT             "Quit the program\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_COPY            "Copy the text and put it on the Clipboard\nCopy (Ctrl+C)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INSTALL_OK          "Logoskop will start each time Windows starts!"
+    IDS_FILEREAD_ERR        "Sorry, there is no The Word file\nfor the date selected: %4d-%02d-%02d.\nPlease select another date.\n"
+    IDS_FILEREADDAY_ERR     "Sorry, the file has no bible words\nfor the date selected: %4d-%02d-%02d\nPlease select another date.\n"
+    IDS_CLIPBOARDERR        "Failed to copy data to clipboard."
+    IDS_USE_NEXT_YEAR       "Welcome to Logoskop, the viewer for The Word of project Bible 2.0!\n\nSince the packet you installed does not contain bible words for the year %d,\nthe bible words for %d will be displayed in the meantime.\n\nIn menu ""File | Actualize The Word"" you can download bible words\nfor the current year from bible2.net (as far as they are available there).\n\nIn menu ""File | Organize The Word"" you can download bible words\nof additional bible editions and years.\n\nGod bless you when you view his word!"
+    IDS_WRITEERR            "Error writing file\n\n(not enough disk space? File write protected?)"
+    IDS_WRITEERR_1          "error writing file (disk space? File write protected?)"
+    IDS_LOZ_NOTLOZ          "The file selected is not a file for The Word (*.twd)!"
+    IDS_INSTALLED           "%d The Word files have been installed successfully!"
+    IDS_INSTALLED_1         "installed"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_MONTHNEXT       "Switch to next month\nMonth next (Ctrl+N)"
+    ID_VIEW_MONTHPREVIOUS   "Switch to previous month\nMonth previous (Ctrl+P)"
+    ID_VIEW_DAYFORTH        "Switch one day forth\nDay forth (Ctrl+F)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_ACTUALIZE       "Download The Word file of current or next year from bible2.net"
+    ID_FILE_ORGANIZE        "Download, select for display, erase or install The Word files\nOrganize The Word (Ctrl+O)"
+    ID_FILE_SIGNATURE       "Configure email signature\nConfigure email signature"
+    IDS_SIGNATURE_TARGET_EMPTY 
+                            "You did not specify a signature file. Do you want to de-activate automatic writing of the signature and leave the dialog?"
+    IDS_SIGNATURE_TARGET_NOT_EXIST 
+                            "Could not read the signature file specified\n\n%s\n\nDo you want to de-activate automatic writing of the signature and leave the dialog?"
+    IDS_SIGNATURE_TARGET_SELECT_TITLE "Select signature file"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_STARTUPFLDR     "Adds the program to the startup folder so that it displays The Word when you start Windows"
+    ID_EDIT_LAYOUT          "Change layout settings (font, colour)\nLayout settings (Ctrl+L)"
+    ID_EDIT_OPTIONS         "Change program options\nOptions"
+    ID_EDIT_POST_PAIR       "Suggest related bible quotations\nSuggest related bible quotations (Ctrl+R)"
+    ID_VIEW_XLAT            "Displays copyright of bible words selection and bible edition used"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILE_NOT_FOUND      "Sorry, The Word file in language '%s' for %d is not (yet) available. You may try again some days later, or have a look at http://bible2.net."
+    IDS_HELPFILE_PROGRAM    "ENreadme.htm"
+    IDS_LOADSHELL32_FAILED  "The system library shell32.dll is missing (probably your Windows version is too old)."
+    IDS_OPENFILE_FAILED     "Sorry, cannot display the text (%s)"
+    IDS_GETSHELLEXECUTE_FAILED 
+                            "The system library shell32.dll is probably too old (missing function; error code %d)."
+    IDS_XLAT_USED           "Copyright"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_DAYBACK         "Switch one day back\nDay back (Ctrl+B)"
+    ID_VIEW_TODAY           "Switch to current day\nToday (Ctrl+T)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INSTALL_TITLE       "Install The Word files"
+    IDS_INSTALL_STR         "The Word file (*.twd)"
+    IDS_INSTALL_EXT         "*.twd"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HELP_PROGRAM         "Show information about the Logoskop application (in your Internet browser)\nShow info about Logoskop (in browser)"
+    ID_HELP_PROJECT         "Show the home page of Project Bible 2.0 on the Internet (in your Internet browser)\nProject Bible 2.0 on the Internet (in browser)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_GET_VER_FAILED      "Internal error - cannot continue running the program!\n\nFailed to determine the version of the program library %s."
+    IDS_POSTPAIR_DATA_MISSING 
+                            "Please specify two bible references and the bible edition used!"
+    IDS_NO_FILE_TO_ACTIVATE "All displayed bible editions are already actualized."
+    IDS_REALLYDELETE        "Do you really want to delete the selected files?"
+    IDS_DELETE_EACCES       "Sorry, deleting the file %s failed (it may be write protected or in use by another program)."
+    IDS_GETLIST_FAILED      "Downloading the list of available files failed:\n\n"
+    IDS_NOSESSION           "Failed to connect to the Internet.\n\nHints:\n- check your modem\n- check the proxy/firewall address (if you have one)."
+    IDS_INVALID_URL         "The Internet address %s is invalid."
+    IDS_INTERNET_ERROR      "An error occured in downloading from the Internet."
+    IDS_GETFILE_FAILED      "Download failed:\n\n"
+    IDS_FILENOTAVAIL        "not available"
+    IDS_URL_NOT_FOUND       "The Internet server does not offer the download service at the address assumed (%s).\n\nPlease check the proxy/firewall address (if you have one)."
+    IDS_HTTP_STATUS         "The Internet server answered with the status code %d."
+    IDS_AUTHOR              " In case the error occurs again, please contact the program author."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SERVER_NOT_FOUND    "Could not locate the Internet server for the address %s. It may be temporarily unreachable."
+    IDS_DOWNLOAD_TEXTS_YEAR "The Word files on %s for %d:"
+    IDS_GETTING_FILELIST    "Downloading list of files..."
+    IDS_GETTING_FILE        "downloading..."
+    IDS_INSTALLING_FILE     "installing..."
+    IDS_FRAME_TITLE         "The Word (%s) - Logoskop"
+    IDS_POSTPAIR_FAILED     "Sorry, an error occured in sending your suggestion to the Internet server:\n\n"
+    IDS_POSTPAIR_OK         "Thank you - your suggestion has been transferred to the Internet server!\n\nIf you like, you may suggest more related bible quotations: just adapt the bible references and send the new suggestion."
+    IDS_PLEASE_THIRDPARTYFREE 
+                            "Please confirm that this pair of bible quotations is free of third party claims (checkbox at the bottom of the dialog)!\n\n(This remark does not please us but hopefully saves us from some trouble.)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_MAINBAR_LANGBOX     "Select language and bible edition of first The Word text\nSelect language and bible edition off first The Word text"
+    IDC_MAINBAR_LANGBOX2    "Select language and bible edition of second The Word text\nSelect language and bible edition of second The Word text"
+    IDC_MAINBAR_DATETIME    "Select date\nSelect date"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SIGNATURE_STR       "Signature file (*.txt)"
+    IDS_SIGNATURE_EXT       "*.txt"
+    IDS_SIGNATURE_TARGET_EMPTY_NOWRITE "You did not specify a signature file!"
+    IDS_SIGNATURE_TEMPLATE_WRITE_FAILED 
+                            "Could not write the template into file\n\n""%s""\n\nThis should not occur.\nProbably you try to specify a different template file in the file Logoskop.ini."
+    IDS_SIGNATURE_TEMPLATE_EMPTY_NOWRITE 
+                            "You did not specify a signature template!"
+    IDS_SIGNATURE_TEMPLATE_KW_LOSUNG "Complete text"
+    IDS_SIGNATURE_TEMPLATE_KW_TL "Date line"
+    IDS_SIGNATURE_TEMPLATE_KW_OT "First bible word"
+    IDS_SIGNATURE_TEMPLATE_KW_NT "Second bible word"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\w32los.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\w32los.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu/afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

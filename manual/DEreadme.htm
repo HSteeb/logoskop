@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Logoskop - Betrachter für Das Wort von Projekt Bibel 2.0</title>
+  <meta name="Author" content="Helmut Steeb" />
+  <meta name="Description" content="Logoskop - Betrachter für Das Wort von Projekt Bibel 2.0" />
+  <link rel='stylesheet' type="text/css" href="pub.css" />
+</head>
+<body style='color:#000000;background-color:#FFFFBD'>
+<h1>Logoskop - Betrachter für Das Wort von Projekt Bibel 2.0</h1>
+<p><small><a href="ENreadme.htm">(to the English version)</a></small></p>
+<p>Inhalt:</p>
+<table class='pseudo'>
+<tr><td><a href="#Logoskop"    >Was ist Logoskop?</a></td></tr>
+<tr><td><a href="#features"    >Für Schnelleinsteiger</a></td></tr>
+<tr><td><a href="#morefeatures">Features</a></td></tr>
+<tr><td><a href="#install"     >Installation</a></td></tr>
+<tr><td><a href="#license"     >Copyright</a></td></tr>
+<tr><td><a href="#files"       >Dateiliste</a></td></tr>
+<tr><td><a href="#emailsig"    >E-Mail-Signatur für Das Wort erzeugen</a></td></tr>
+<tr><td><a href="#advfeatures" >Technische Einzelheiten</a><br />
+(<a href="#location">Speicherort der Das Wort-Dateien</a>;
+  <a href="#filenaming">Dateiformat, Namenskonventionen und Datumsauswahl</a>;
+  <a href="#UnicodeFontIndexing">Kodierung und Schriftarten</a>;
+  <a href="#startOnce">Start nur einmal am Tag</a>;
+  <a href="#copying">Kopieren in die Zwischenablage</a>;
+  <a href="#download">Download</a>;
+  <a href="#datectrl">Beschreibung des Datums-Eingabefeldes</a>;
+  <a href="#cmdline">Kommandozeilen-Parameter</a>;
+  <a href="#inifile">INI-Datei</a>)
+</td></tr>
+<tr><td><a href="#history"     >Logoskop-Geschichte</a></td></tr>
+</table>
+
+<hr />
+<h1><a id="Logoskop" name="Logoskop">Was ist Logoskop?</a></h1>
+
+<p><strong>Logoskop</strong> (griech. <strong>Wort-Betrachter</strong>)
+zeigt <strong>Das Wort</strong> - zwei sich ergänzende Bibelworte für jeden Tag des Jahres, herausgegeben von Projekt Bibel 2.0 <a
+href="http://bible2.net/">http://bible2.net/</a>.</p>
+<p>Autor: Helmut Steeb <a href='http://www.jsteeb.de/'>http://www.jsteeb.de/</a>.
+
+Ich danke meinem Herrn Jesus Christus, der mir ermöglicht, Logoskop zur
+Verfügung zu stellen.</p>
+
+<hr />
+
+<h1><a id="features" name="features">Für Schnelleinsteiger</a></h1>
+
+<p>Nach der Installation</p>
+<ul>
+<li>zeigt Logoskop Das Wort für den aktuellen Tag an</li>
+<li>... für Deutsch (falls Ihr Betriebssystem deutsch eingestellt ist) oder Englisch</li>
+<li>... aus den im Installationspaket enthaltenen Das Wort-Dateien</li>
+<li>... bis das Jahr vergangen ist - dann brauchen Sie Dateien für das
+kommende Jahr (verwenden Sie Menü Datei-Das Wort aktualisieren).</li>
+</ul>
+
+<hr />
+
+<h1><a id="morefeatures" name="morefeatures">Features</a></h1>
+
+<ul>
+
+<li>Kopieren Sie Das Wort in 
+die <strong>Windows-Zwischenablage</strong> (Menü Bearbeiten-Kopieren).</li>
+
+<li>Lassen Sie Logoskop bei der Installation in den
+<strong>Autostart-Ordner</strong> eintragen, so dass es
+bei jedem Start von Windows automatisch Das Wort anzeigt</li>
+
+<li>betrachten Sie <strong>Das Wort in verschiedenen Bibelausgaben und Sprachen</strong>. Wählen Sie die Bibelausgaben in den Auswahllisten im 
+Toolbar oder in Menü Datei-"Das Wort organisieren".</li>
+
+<li>fügen Sie <strong>zusätzliche Texte (*.twd) für andere Sprachen oder für
+kommende Jahre</strong> einfach hinzu (Menü Datei-"Das Wort organisieren")
+</li>
+<li>schalten Sie die <strong>Sprache der Programmoberfläche</strong> (Menüs und
+Meldetexte...) um (Menü Bearbeiten-Einstellungen; die neue Sprache wird nach dem nächsten Start von Logoskop verwendet).</li>
+
+<li>Logoskop kann anzeigen, welche Bibeltexte verwendet wurden: Menü
+Ansicht | Copyright. Um wieder Das Wort anzuzeigen, wählen Sie erneut Menü
+Ansicht | Copyright (oder einen anderen Tag oder eine andere Sprache).</li>
+
+<li>schlagen Sie übers Internet weitere ergänzende Bibelworte
+vor (Menü Bearbeiten | "Ergänzende Bibelworte vorschlagen").</li>
+
+<li>Logoskop kann eine <a href="#emailsig">E-Mail-Signatur für Das Wort erzeugen</a></li>
+</ul>
+
+<hr />
+<h1><a id="install" name="install">Installation</a></h1>
+
+<ul><li>Systemanforderungen: Windows 9x/NT/2000/XP/Vista/Windows 7
+(auch unter Linux, getestet mit Wine 1.0.1)</li>
+
+<li>Führen Sie das Installationsprogramm aus. Anschließend wird Logoskop
+automatisch gestartet.</li>
+
+<li>Wenn Sie bei der Installation <strong>Probleme mit der Schreibberechtigung
+im Installationsordner C:\Programme</strong> bekommen, können Sie Logoskop
+einfach in einen anderen Ordner installieren (z.B. "D:\Logoskop").</li>
+
+<li>Das Installationsprogramm enthält Texte für das kommende Jahr.  Nach der
+Installation im vorigen Jahr weist Logoskop Sie darauf hin, dass für den Rest
+des Jahres als Behelf Das Wort des kommenden Jahres angezeigt wird. Sie können
+auch den Text des laufenden Jahres einfach aus dem Internet herunterladen (Menü
+Datei | "Das Wort aktualisieren")
+</li>
+
+<li>Falls Das Wort nicht richtig angezeigt wird, versuchen Sie es im Menü Bearbeiten | Layout mit einer anderen Schriftart.</li>
+
+</ul>
+
+<hr />
+<h1><a id="license" name="license">Copyright</a></h1>
+
+<p>Für die <strong>Bibeltexte</strong>: Menü Ansicht | "Copyright".</p>
+<p>Für <strong>Logoskop und seine Komponenten</strong>:</p>
+
+<table class='table'>
+<tr><td><p>The Logoskop application uses the XML parser expat by James Clark (www.jclark.com) which
+is available under the Mozilla Public License (www.mozilla.org/MPL/).
+The parser has been modified, the code is available from bible2.net .</p>
+</td></tr>
+<tr><td><p>FriBidi - Library of BiDi algorithm<br/>
+Copyright (C) 1999 Dov Grobgeld</p>
+
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Library General Public
+License as published by the Free Software Foundation; either
+version 2 of the License, or (at your option) any later version.</p>
+
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU Library General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU Library General Public
+License along with this library; if not, write to the
+Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+Boston, MA 02111-1307, USA.</p>
+</td></tr>
+</table>
+
+<p>Logoskop darf frei weitergegeben werden. Es gibt absolut keine
+Gewähr.</p>
+
+<p>Möge Gott das Programm gebrauchen, Sein Wort bekannt zu machen und Menschen
+in aller Welt zu segnen!</p>
+
+
+<hr />
+
+<h1><a id="files" name="files">Dateiliste</a></h1>
+<table class='pseudo'>
+<tr><td width='150'>Logoskop.exe</td><td>Anzeigeprogramm</td></tr>
+<tr><td>Logoskop*.dll</td><td>Unterstützung für weitere Sprachen der Programmoberfläche (neben Englisch)</td></tr>
+<tr><td>*.twd</td><td>Das Wort-Datei</td></tr>
+<tr><td>*.htm</td><td>Dokumentation</td></tr>
+<tr><td>pub.css</td><td>cascading style sheet für die Dokumentation *.htm</td></tr>
+</table>
+
+<hr />
+
+<h1><a id="emailsig" name="emailsig">E-Mail-Signatur für Das Wort erzeugen</a></h1>
+
+<h2>Funktionsweise</h2> 
+
+<p>In gängigen E-Mail-Programmen können Sie eine "Signatur"
+definieren. Wenn Sie eine neue E-Mail erstellen, fügt das
+E-Mail-Programm die Signatur automatisch ans Ende des noch leeren
+Textes, bevor Sie ihn bearbeiten. Typischerweise enthält die Signatur
+Ihren Namen und Ihre E-Mail-Adresse, wie z.B.</p>
+
+<pre style='margin-left:1cm'>
+--
+Max Mustermann
+Max_Mustermann@mmm.org
+</pre>
+
+<p>Wenn Ihr E-Mail-Programm die Signatur in einer Textdatei auf der
+Festplatte speichert, können Sie Logoskop so konfigurieren, dass es bei
+jedem Programmstart automatisch den aktuellen Text von Das Wort in diese
+Datei schreibt. Erstellen Sie danach eine neue E-Mail, so enthält sie
+bereits Das Wort als Signatur.</p>
+
+<p>Logoskop schreibt Das Wort als einfachen Text mit Zeilenumbrüchen,
+ohne Angaben zu Farben oder Schriftarten. Wenn Sie üblicherweise
+E-Mails im HTML-Format erstellen, wird die von Logoskop geschriebene
+Signatur nicht wie erwartet aussehen.</p>
+
+<h2>E-Mail-Signatur konfigurieren - welche Datei?</h2>
+
+<p>Die wichtigste Frage lautet: <strong>aus welcher Datei liest Ihr
+E-Mail-Programm die Signatur neu erstellter E-Mails?</strong></p>
+
+<p>Um dies herauszufinden, können Sie wie folgt vorgehen:</p>
+
+<ul>
+<li>kopieren Sie ein (möglichst unverwechselbares) Stück Text aus der
+Signatur einer neu verfassten E-Mail (notfalls einfach Ihre E-Mail-Adresse).</li>
+<li>suchen Sie auf Ihrer Festplatte nach einer Datei, die dieses Stück Text enthält.
+Dies können Sie erledigen mit der Suchfunktion aus Startmenü - Suchen - "Dateien/Ordner" und den Sucheinstellungen:
+<table>
+<tr><th>Dialogfeld</th><th>Typische Einstellung für die Suche</th></tr>
+<tr><th>Suchen in:</th><td>C:\</td></tr>
+<tr><th>Name:</th><td>*.txt</td></tr>
+<tr><th>Untergeordnete Ordner einbeziehen</th><td><em>ankreuzen!</em></td></tr>
+<tr><th>Enthaltener Text:</th><td><em>das Stück Text</em></td></tr>
+</table></li>
+
+<li>wenn eine Datei gefunden wird, prüfen Sie, ob diese tatsächlich Ihre Signatur enthält</li>
+<li>tragen Sie den vollständigen Pfad zu dieser Datei in den Logoskop-Konfigurationsdialog ein</li>
+<li>wählen Sie in Logoskop "Signatur jetzt schreiben"</li>
+<li>erstellen Sie in Ihrem E-Mail-Programm eine neue E-Mail, um zu prüfen, ob Sie die richtige Datei angegeben haben</li>
+</ul>
+
+<p>Verschiedene E-Mail-Programme legen Signaturen an
+unterschiedlicher Stelle ab. Hier eine unvollständige Liste von
+E-Mail-Programmen und den Ordnern, in denen Sie Ihre Signatur finden könnten:</p>
+
+<table class='table'>
+<tr><th>Programm</th><th>Menüpunkt / Ablage der Signaturdatei</th></tr>
+
+<tr><th>GeMail (Freeware)</th><td>C:\Programme\GeSoft\GeMail\Mails\Signatur.da1</td></tr>
+
+<tr><th>Mozilla 1.4</th><td>Menü Bearbeiten | Mail &amp; Newsgroup-Account-Einstellungen |
+Pfadangabe in "Diese Unterschrift anhängen"</td></tr>
+
+<tr><th>MS Outlook Express</th><td>Menü Extras | Optionen | Signaturen | Signaturen bearbeiten</td></tr>
+
+<tr><th>MS Outlook 2000</th><td>Menü Extras | Optionen | E-Mail-Format | Signatur<br />
+gespeichert in z.B. C:\WINNT\Profiles\MaxMustermann\Anwendungsdaten\Microsoft\Signatures\MaxMustermann.txt
+(siehe Speicherort von <a href='#APPDATA'>AppData</a>).</td></tr>
+
+<tr><th>MS Outlook 2002 (SP2)</th><td>Menü Extras | E-Mail-Format | Signaturen | Neu | diese Datei als Vorlage verwenden</td></tr>
+
+</table>
+
+<h2>E-Mail-Signatur konfigurieren - Vorlage</h2>
+
+<p>Die von Logoskop geschriebene Signatur kann neben dem Bibeltext
+natürlich auch Ihren Namen und Ihre E-Mail-Adresse enthalten. Wie die
+Signatur aussehen soll, definieren Sie in einer "Vorlage". Die Vorlage
+kann beliebigen Text enthalten. An den Stellen, an denen Sie die
+Das Wort vollständig oder einzelne Teile davon platzieren möchten,
+fügen Sie spezielle Platzhalter ein. Logoskop ersetzt diese
+Platzhalter dann durch den Text des jeweiligen Tages.</p>
+
+<p>Beispiel:</p>
+
+<pre>
+--
+Max Mustermann
+Max_Mustermann@mmm.org
+--
+%TL;
+
+%PAROL1;
+
+%PAROL2;
+--
+</pre>
+
+<p>wird z.B. am 2008-11-01 zu</p>
+
+<pre>
+--
+Max Mustermann
+Max_Mustermann@mmm.org
+--
+Das Wort für Samstag, 1. November 2008
+
+Die Hirten kehrten wieder um
+und priesen und lobten Gott für alles,
+was sie gehört und gesehen hatten,
+so wie es ihnen gesagt worden war.
+Lukas 2,20
+
+Lobt den Herrn, alle seine Werke,
+an allen Orten seiner Herrschaft!
+Lobe den Herrn, meine Seele!
+Psalm 103,22
+--
+</pre>
+
+<p>Logoskop erkennt die folgenden Platzhalter:</p>
+
+<table class='table'>
+<tr><th>Platzhalter</th><th>Bedeutung</th></tr>
+<tr><th>%THEWORD;</th><td>der gesamte Text von Das Wort mit Datumszeile</td></tr>
+<tr><th>%TL;</th><td>die Datumszeile</td></tr>
+<tr><th>%PAROL1;</th><td>die ersten Bibelverse</td></tr>
+<tr><th>%PAROL2;</th><td>die zweiten Bibelverse</td></tr>
+</table>
+
+<h2>HTML-E-Mail</h2>
+
+<p>Folgendes Beispiel (von Axel Schlüter 2005-11-28 für w32los) erzeugt eine
+Signatur für eine HTML-formatierte E-Mail, verwendbar im
+E-Mail-Programm Thunderbird:</p>
+
+<pre>
+&lt;font face="Tahoma"&gt;
+&lt;div style="position:relative; left:30px; color:white; margin:30px 30px 30px 0px;
+      background-color:#000040; width:280px; padding:30px 20px 20px 30px;"&gt;
+%TL;&lt;br&gt;
+&lt;br&gt;
+%PAROL1;&lt;br&gt;
+&lt;br&gt;
+%PAROL2;
+&lt;/div&gt;
+&lt;/font&gt;
+</pre>
+
+<h2>Einschränkungen</h2>
+
+<ul>
+<li>Logoskop schreibt die Platzhalter nur als Text, nicht als HTML (siehe dazu auch unter "SignatureLineSeparator" im Abschnitt <a href="#inifile">INI-Datei</a>)</li>
+<li>Logoskop schreibt die Signaturdatei bei jedem Programmstart - nicht seltener, nicht öfter</li>
+<li>Logoskop verwendet für die Signaturdatei den Text in der ersten beim Programmstart angezeigten Sprache</li>
+<li>Logoskop unterstützt zwei Kodierungen für die Signatur: die auf Ihrem Betriebssystem eingestellte Kodierung, und UTF-8
+(dies steuern Sie über "als UTF-8 schreiben" im Dialog "E-Mail-Signatur konfigurieren")</li>
+<li>wenn Logoskop den Text in der auf Ihrem Betriebssystem eingestellten
+Kodierung schreibt, können manche Zeichen des angezeigten Textes
+möglicherweise nicht wiedergegeben werden. Diese werden dann in der
+Signaturdatei typischerweise durch "?" ersetzt (prüfen Sie dies einfach durch
+die Schaltfläche "Signatur jetzt schreiben" im Konfigurationsdialog).  Der
+chinesische Text wird auf einem deutschen Betriebssystem zu Vielen
+Fragezeichen führen.</li>
+<li>"als UTF-8 schreiben" ist möglicherweise für Ihr E-Mail-Programm
+nützlich. Allerdings kann die Vorschau unten im Dialog von Logoskop für UTF-8 nur Ascii-Zeichen (A-Z...) 
+korrekt anzeigen.</li>
+</ul>
+
+<hr />
+
+<h1><a id="advfeatures" name="advfeatures">Technische Einzelheiten</a></h1>
+
+<h2><a id="location" name="location">Speicherort der Das Wort-Dateien</a></h2>
+
+<p>Logoskop speichert die Texte für Das Wort (.twd-Dateien) in einem speziellen
+<a name='APPDATA' id='APPDATA'>Windows-Systemordner, in dem Anwendungsdaten
+abgelegt werden können</a>:</p>
+<ul>
+<li>Windows XP: C:\Dokumente und Einstellungen\IHRNAME\Anwendungsdaten\bible2.net\</li>
+<li>Windows Vista: C:\Users\IHRNAME\AppData\Roaming\bible2.net\</li>
+<li>Windows NT: C:\Windows\Profile\IHRNAME\Anwendungsdaten\bible2.net\</li>
+</ul>
+
+<h2><a id="filenaming" name="filenaming">Dateiformat, Namenskonventionen und Datumsauswahl</a></h2>
+
+<p>Logoskop zeigt Texte im .twd XML-Format an, welche
+einer Document Type Definition (DTD) namens thewordfile entsprechen
+(diese bekommen Sie in bible2.net, Sie benötigen sie aber nicht zur Anzeige des Textes).</p>
+<p>Logoskop verwendet die Standard-Namenskonvention z.B. "de_Schlachter2000_2009.twd", d.h.</p>
+<ul>
+<li>der Sprachcode (dieser muss mit dem Attribut xml:lang in der Datei übereinstimmen) </li>
+<li>der Name des verwendeten Bibeltextes</li>
+<li>die vierziffrige Jahreszahl</li>
+<li>die Dateinamens-Endung "twd" (the word)</li>
+</ul>
+<p>Wenn Logoskop das Wort des aktuellen Tages anzeigt, erkennt es jede
+Datumsänderung und zeigt den danach aktuellen Text an (am 31. Dezember
+wechselt es zu einer anderen Datei - unter Verwendung der
+Standard-Namenskonvention).</p> <p>Wenn Sie den Text eines anderen Jahres
+anzeigen lassen, liest Logoskop die Liste der für dieses Jahr verfügbaren
+Texte neu. Ist kein Text verfügbar, wird eine Fehlermeldung angezeigt.</p>
+
+<h2><a id="startOnce" name="startOnce">Start nur einmal am Tag</a></h2>
+
+<p>Im Optionen-Dialog können Sie einstellen, dass Logoskop nur einmal
+pro Tag <strong>per Autostart</strong> (d.h. beim Start von Windows)
+gestartet werden soll. Wenn Sie dies eingestellt haben, bricht das
+Programm bei nachfolgenden Starts am selben Tag ab, bevor das
+Programmfenster sichtbar wird. Beachten Sie: diese Einstellung sowie
+die Angabe, wann Logoskop zuletzt gestartet wurde, werden in der
+INI-Datei abgelegt. Falls Sie verschiedene INI-Dateien verwenden, ist
+die "Start nur einmal am Tag"-Einstellung für jede INI-Datei separat
+wirksam. Wenn Sie Logoskop direkt über das Programme-Menü oder im
+Explorer starten, wird der Schalter nicht beachtet.</p>
+
+<h2><a id="copying" name="copying">Kopieren in die Zwischenablage</a></h2>
+
+<p>Logoskop kopiert den Text in zwei verschiedenen "Formaten" in die Zwischenablage:
+im üblichen "Text"-Format und im "Unicode"-Format.</p>
+
+<ul>
+<li>"Unicode"-Format: dieses Zwischenablageformat kann Text in (ziemlich) allen Sprachen aufnehmen.</li>
+<li>"Text"-Format: dieses Zwischenablageformat kann nur Text einer bestimmten "Codepage"
+aufnehmen, z.B. der westeuropäischen oder der russischen Codepage. In Ihrem
+Windows-System ist eine bestimmte Codepage voreingestellt.<br />
+Logoskop kann nur Text der eingestellten Codepage in die "Text"-Zwischenablage kopieren.<br />
+Wenn Logoskop einen Text einer "fremden" Sprache anzeigt (z.B. Russisch auf einem
+westeuropäischen System), dann kann das "Text"-Format der Zwischenablage diesen Text
+nicht aufnehmen; es interpretiert die Zeichen entweder fälschlicherweise als Zeichen
+der eingestellten Codepage, oder es ersetzt die unbekannten Zeichen z.B. durch Fragezeichen.</li>
+</ul>
+
+<p>Manche Anwendungsprogramme holen Text automatisch im "Unicode"-Format aus der
+Zwischenablage ab (z.B. Word 2000), diese können also den Text beliebiger Sprachen
+korrekt verwenden.</p>
+
+<p>Auf Windows 9.x-Systemen verwenden manche Anwendungsprogramme 
+nur das "Text"-Format der Zwischenablage. In solche Anwendungsprogramme
+können Sie Texte, die in einer anderen Sprache vorliegen, nicht verlustfrei einfügen.</p>
+
+<p>Arabischer Text wird gemäß Unicode
+in der "logischen Anordnung" in die Zwischenablage übertragen.</p>
+
+<!-- TBD
+<p>Enthält der zu kopierende Text hervorgehobene Teile (XML-Tags EM), 
+so werden diese in "" bzw. {{...}} eingeschlossen.</p>
+-->
+
+<h2><a id="download" name="download">Download</a></h2>
+
+<p>Mit Logoskop können Sie Das Wort-Dateien aus dem Internet herunterladen.</p>
+<ul>
+<li>im Dialog <strong>Das Wort aktualisieren</strong>
+(Herunterladen der Texte für die gerade angezeigten Bibelausgaben
+für das laufende oder kommende Jahr), und</li>
+<li>im Dialog <strong>Das Wort organisieren</strong> 
+(Herunterladen mehrerer Texte auf einmal; für jedes Jahr, 
+für das Das Wort auf bible2.net verfügbar ist).</li>
+</ul>
+
+<p>Um Das Wort-Dateien herunterladen zu können, benötigen Sie eine funktionierende Internet-Verbindung.
+In einer Firma können Sie möglicherweise eine Internet-Verbindung 
+nur über einen <strong>Proxy</strong> oder <strong>Firewall</strong> aufbauen.
+Logoskop unterstützt drei Verwendungsweisen von Proxies:</p>
+
+<ul>
+<li>Proxy-Einstellungen des Internet Explorer verwenden. Diese können Sie z.B. in der 
+Windows-Systemsteuerung (Internetoptionen) bearbeiten.</li>
+<li>keinen Proxy verwenden. Dies ist die richtige Wahl, wenn Sie Logoskop zuhause über ein Modem betreiben.</li>
+<li>die Proxy-Adresse manuell angeben, z.B. "www-proxy".
+Sie können zusätzlich den Anschluss angeben, z.B. "www-proxy:8080"
+(trennen Sie Adresse und Anschluss durch ":"; der voreingestellte Anschluss
+ist 80).
+Fragen Sie bitte Ihren Netzwerkadministrator, wenn Sie die Proxy-Adresse nicht wissen, 
+oder sehen Sie in den Einstellungen des Browsers nach
+(z.B. Firefox 3: Extras-Einstellungen-Erweitert-Netzwerk)</li>
+</ul>
+
+<p>Wenn Ihr Proxy für eine Verbindung ins Internet einen Benutzernamen und ein Kennwort erfordert,
+fragt Logoskop diese ab, sobald Sie einen Download versuchen.
+Aus Sicherheitsgründen speichert Logoskop weder Ihren Benutzernamen noch das Kennwort.</p>
+
+<p>Beim Download kommuniziert Logoskop mit einem HTTP-Dienst auf bible2.net.
+Logoskop übermittelt dem Dienst nur Daten, die für die HTTP-Kommunikation erforderlich sind.</p>
+
+<p>Wenn Sie Schwierigkeiten haben, mit Logoskop eine Verbindung ins Internet aufzubauen, und Logoskop zu früh
+mit einer Fehlermeldung abbricht, können Sie versuchen, die Zeitverzögerung zu erhöhen
+(siehe "Timeout" im Abschnitt <a href="#inifile">INI-Datei</a>).</p>
+
+<p>Achtung: manche Internet-Provider lenken in jeder Internet-Verbindung
+die erste eingegebene Webadresse (d.h. die erste HTTP-Anfrage)
+auf die Startseite des Providers um. 
+Logoskop lädt die Das Wort-Dateien per HTTP herunter. Wenn Sie also in einer
+Internet-Verbindung als erste Aktion Das Wort-Dateien mit Logoskop herunterladen,
+dann wird auch die erste HTTP-Anforderung, die Logoskop absendet, vom Provider
+umgeleitet und bekommt als Antwort die HTML-Startseite des Providers anstelle
+einer Das Wort-Datei. Sollten Sie also beim Herunterladen der Das Wort-Dateien unerklärliche
+Fehlermeldungen bekommen, dann könnte es helfen, wenn Sie <em>zuerst</em>
+im Internet-Browser irgendeine Webseite besuchen und erst dann - in derselben
+Internet-Verbindung - in Logoskop eine Das Wort-Datei herunterladen.</p>
+
+<h2><a id="datectrl" name="datectrl">Beschreibung des Datums-Eingabefeldes</a></h2>
+
+<p>Logoskop verwendet ein Standard-Windows-Eingabefeld,
+um das Datum des anzuzeigenden Textes auszuwählen.
+In alten Windows 95-Versionen kann dieses Eingabefeld fehlen,
+in diesem Fall bleibt der entsprechende Bereich des Toolbar leer
+(technisch ausgedrückt: Sie benötigen Version 4.70 oder höher der Comctl32.dll,
+welche mit Microsoft Internet Explorer Version 3.x oder höher geliefert wird).
+</p>
+
+<p>Das Datums-Eingabefeld verarbeitet die folgenden Eingaben:</p>
+
+<!-- source: MSDN | Plattform-SDK | User Interface Services | Shell and Common Controls | Common Controls | Common Controls -->
+
+<table class='table'>
+<tr><th>Art der Eingabe</th><th>Beschreibung</th></tr>
+<tr>
+  <td>Pfeiltasten</td>
+  <td>Sie können mit den Pfeiltasten links/rechts
+durch den Eingabebereich wandern.<br />
+Die Tasten auf/ab ändern den Wert im aktuellen Feld schrittweise.
+  </td>
+</tr>
+<tr>
+  <td>Ende und Pos1</td>
+  <td>setzen den Wert des aktuellen Feldes auf den maximal bzw. minimal möglichen Wert
+  </td>
+</tr>
+<tr>
+  <td>Funktionstasten</td>
+  <td>F2 aktiviert den Bearbeitungsmodus.<br />
+F4 läßt eine Monatsliste erscheinen (Alt-Pfeil ab hat denselben Effekt).
+  </td>
+</tr>
+<tr>
+  <td>Ziffern</td>
+  <td>Das Eingabefeld verarbeitet die Eingabe von Zahlen in Bereichen von jeweils zwei Ziffern.
+  </td>
+</tr>
+<tr>
+  <td>Plus und Minus</td>
+  <td>vergrößern bzw. verkleinern den Wert im aktuellen Bereich
+  </td>
+</tr>
+</table>
+
+<h2><a id="cmdline" name="cmdline">Kommandozeilen-Parameter</a></h2>
+
+<p>Aufruf von Logoskop: </p>
+<pre>
+  Logoskop [-i INIDATEI][-autostart]
+</pre>
+<p>Logoskop verarbeitet als optionalen Parameter:
+der Pfad zur ini-Datei.
+Hiermit können Sie Logoskop mehrfach starten und bei jedem Start
+eine andere ini-Datei angeben.
+Dann können Sie die verschiedenen Programmfenster an unterschiedlichen
+Stellen der Arbeitsoberfläche platzieren, Das Wort in unterschiedlichen Sprachen
+anzeigen, andere Farben und Zeichensätze wählen usw.</p>
+
+<p>Zum Parameter "-autostart" siehe <a href='#startOnce'>Start nur einmal am Tag</a>.</p>
+
+<hr />
+
+<h2><a id="inifile" name="inifile">INI-Datei</a></h2>
+
+<p>Logoskop speichert Einstellungen in einer Datei Logoskop.ini im Verzeichnis
+Anwendungsdaten\bible2.net (der Ordner "Anwendungsdaten" <a
+href='#APPDATA'>liegt je nach Windows-Version an einer anderen Stelle</a>).
+</p>
+
+<p>Spezielle Werte (nicht über Dialoge änderbar):</p>
+<dl>
+<dt>[General]<br/>Timeout=15000</dt><dd>Wartezeit für Internet-Verbindungen, in 1/1000 Sekunden.
+  Die Voreinstellung beträgt 15000 (also 15 Sekunden).</dd>
+
+<dt>[General]<br/>SignatureTemplate=<em>PfadZurDatei</em></dt><dd>zeigt auf eine Datei, in der Logoskop den im Dialog 
+"E-Mail-Signatur konfigurieren" definierten Vorlagentext speichert</dd>
+<dt>[General]<br/>SignatureLineSeparator=&lt;br/&gt;</dt><dd>definiert anstelle des einfachen Zeilenumbruches
+z.B. den HTML-Befehl "&lt;br/&gt;" als Zeilentrenner. Die Zeichenfolgen "\t", "\r" und "\n" (jeweils zwei Zeichen: Backslash
+gefolgt von einem Buchstaben) werden durch das entsprechende Steuerzeichen ersetzt.</dd>
+
+<dt>[General]<br/>LogfileLevel=3</dt><dd>aktiviert die Protokollierung der Programmaktionen in eine Logdatei 
+(Voreinstellung: deaktiviert). Gültige Werte sind: 
+0 = keine Protokollierung, 
+1 = nur Fehlermeldungen, 
+2 = ... zusätzlich informative Meldungen, 
+3 (und alle anderen Werte) = zusätzlich Statusmeldungen</dd>
+<dt>[General]<br/>Logfile=c:\temp\Logoskop</dt><dd>setzt den Namen der Logdatei (Voreinstellung: "Logoskop.log" im selben 
+Verzeichnis wie Logoskop.exe). Im Optionendialog können Sie zwischen "ein" (= 3) und "aus" (= 0) wählen.</dd>
+
+<dt>[General]<br/>ParseStrict=1</dt><dd>bewirkt, dass Logoskop eine Das Wort-Datei ablehnt,
+die unerwartete XML-Elemente enthält (Voreinstellung: 0)</dd>
+
+<dt>[General]<br/>UseUSP10=0</dt><dd>
+  Tragen Sie ein UseUSP10=0, um nicht den "Microsoft Uniscribe Processor" (USP10.DLL)
+  für die Anzeige zu verwenden, sondern stattdessen
+  einen internen Algorithmus, basierend auf FriBidi (Open Source).
+  Diesen Wert können Sie auch über den Optionendialog ändern.
+  Falls Logoskop die USP10.DLL nicht laden oder verwenden kann (z.B. weil Sie
+  Logoskop mit Wine unter Linux gestartet haben), schaltet es UseUSP10 automatisch aus.</dd>
+
+<dt>[General]<br/>SetMonthCalFont=0</dt><dd>sollten bei Ihnen
+  Probleme mit der Schriftart des Datums-Eingabefeldes auftreten,
+  könnte diese Einstellung helfen. Sie bewirkt, dass die Schriftart
+  des Eingabefeldes beim Programmstart nicht auf die Schriftart des
+  Toolbar gesetzt wird (Voreinstellung: 1).</dd>
+
+</dl>
+
+<hr />
+<h1><a name="history">Logoskop-Geschichte</a></h1>
+
+<pre>
+3.0.2 2009-09-30
+  Layout: support rest of font dialog properties (e.g. italic and underline).
+  Correction: line-break handling in copy to clipboard.
+  Correction: filling of language combo-boxes after year change.
+
+3.0.1 2009-09-21
+  Signature dialog: insert default signature template.
+  Signature dialog: layout in 4 steps.
+  Correction: re-read list of files when changing year.
+
+3.0.0 2009-08-28
+  Display multiple bible editions at once
+  - with scrolling
+  - controlled by two combo-boxes or Menu File | "Organize The Word"
+  Added layout dialog with undo/redo.
+
+2.0.2 2009-01-31
+  After installation, select bible to be displayed from operating system language
+
+2.0.1 2009-01-03
+  Filename was not accepted when setting target file for email signature (CR025)
+
+2.0 2008-11-29
+  Store settings and .twd files in AppData folder.
+  Support twd 11 format.
+  Added suggestion of related bible quotations.
+  Added download of texts from internet.
+  Email signatures enabled, added option to write signature as UTF-8.
+
+1.0.0 2007-12-12
+  First version of Logoskop.
+  Logoskop has been derived from my application <em>w32los</em>.
+  Email signatures and automatic text updates are not (yet) supported.
+</pre>
+
+<hr />
+<p class="footer">
+  Version $Id: DEreadme.htm 3946 2009-10-10 12:46:48Z helmut $
+</p>
+</body>
+<!-- 
+  Local Variables: 
+  mode:nxml
+  End:
+-->
+</html>

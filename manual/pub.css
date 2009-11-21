@@ -1,0 +1,53 @@
+/* Style sheet for displaying help files */
+/* Author : Helmut Steeb          */
+/* $Id: pub.css 3846 2009-08-25 12:56:19Z helmut $ */
+
+pre {  margin-left:1cm; }
+
+body          {
+  font-size:12pt;
+  font-family:arial,sans-serif;
+  color:#000000;
+  background-color: #FFFFBD;
+}
+
+h1.top        {font-size:20pt; font-family:arial,sans-serif; color:#666666;}
+h1            {font-size:16pt; font-family:arial,sans-serif}
+h2            {font-size:14pt; font-family:arial,sans-serif}
+
+table         { border: 1px solid #cccccc; border-collapse:collapse; margin-left:2em; width:40em; }
+table tr, 
+table td, 
+table th      { border: 1px solid #cccccc; }
+table.pseudo,
+table.pseudo tr,
+table.pseudo td,
+table.pseudo th { border: 0; margin-left:2em; padding: 0; }
+p,ul,ol,li,div,address,dl,dd,center
+              {font-size:10pt; font-family:arial,sans-serif}
+blockquote, blockquote p
+              {font-size:10pt; font-family:monospace }
+nobr,b,i
+              {font-family:arial,sans-serif}
+dt
+              {font-size:10pt; font-family:arial,sans-serif; margin-top:6pt; font-weight:bold;}
+
+th           {font-size:10pt; font-family:arial,sans-serif; color:#000000; background-color:#FFFF6D;
+               vertical-align:middle;text-align:center}
+th.left       {font-size:10pt; font-family:arial,sans-serif; color:#000000; background-color:#FFFF6D;
+               vertical-align:top;text-align:left}
+td            {font-size:10pt; font-family:arial,sans-serif; color:#000000; background-color:#FFFF9D;
+               vertical-align:top;text-align:left;padding:0.5em;}
+
+
+small      {font-size:8pt; font-family:arial,sans-serif; }
+p.footer   {font-size:8pt; font-family:arial,sans-serif; font-style:italic;}
+p.title    {font-size:24pt; font-family:arial,sans-serif; color:#666666;}
+p.subtitle {font-size:18pt; font-family:arial,sans-serif; color:#666666;}
+div.en     {font-style:italic; }
+a          {font-family:arial,sans-serif}
+/* from W3-REC.css: */
+@media screen {  /* hide from IE3 */
+a:hover { background: #FE0 } 
+}
+

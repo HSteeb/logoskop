@@ -1,0 +1,68 @@
+<HTML>
+<HEAD>
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+  <META NAME="Author" CONTENT="Helmut Steeb">
+  <META NAME="Title" CONTENT="Logoskop documentation">
+  <LINK rel=stylesheet type="text/css" href="pub.css">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFBD">
+
+<P>Inhalt:</P>
+<TABLE border=0 cellspacing=4 cellpadding=2 width=100%>
+<TR><TD><A href="#NewLang"   >Creating a new language</A></TD></TR>
+</TABLE>
+
+<H1><A name="NewLang">Creating a new language (e.g. Afrikaans)</A></H1>
+
+<P>in w32res</P>
+<UL>
+<LI>menu Build - Configurations, add "Release Afrikaans" and "Debug Afrikaans"</LI>
+</UL>
+
+<P>in menu Project-Settings, Common tab (for Debug and Release target):</P>
+<UL>
+<LI>temporary files: ../Obj/Release/w32res/</LI>
+<LI>output files: ../Release</LI>
+</UL>
+
+<P>in menu Project-Settings, Linker tab:</P>
+<UL>
+<LI>output file name: ../Release/w32resafr.dll</LI>
+</UL>
+
+<P>in menu Project-Settings, Ressources tab:</P>
+<UL>
+<LI>Name of ressource file: ../Obj/Release/w32res/w32resafr.res</LI>
+<LI>Language: (select from list; if not contained, enter in small
+window "Ressource options" at the bottom of the dialog: "/l 0xNNN" where NNN
+is a combined language/sublanguage number from VC98\Include\WinNT.h -
+at best, check against values used in other targets...)</LI>
+<LI>Defines: AFX_RESSOURCE_DLL,AFX_TARG_AFR (language code), AFX_TARG_NEU, AFX_TARG_NEUD
+(for language neutral ressource parts)</LI>
+</UL>
+
+<P>in Ressource view:</P>
+<UL>
+<LI>multi-select ressources needed (look which ones are used for other languages, too),
+menu Edit-Copy</LI>
+<LI>menu Insert - "Ressource copy" (for languages not supported in the combobox now appearing:
+edit w32los.rc directly: 
+copy the text for a given language to an new language, 
+enter LANG_xx SUBLANG_yy from VC98\Include\WinNT.h)</LI>
+</UL>
+
+<P>in menu View - Ressource includes:</P>
+<UL>
+<LI>copy mystic statements into area "compile-time directives" (with correct language/codepage)
+(must probably be moved to the respective language section in w32los.rc????)
+</LI>
+</UL>
+
+<P><STRONG>Store IDS_XLAT_* strings in UTF-8!</STRONG></P>
+
+
+<A HREF="#top">[TOP]</A>
+<HR>
+<P class="small">$Id: readme.htm 3011 2008-11-29 09:37:12Z helmut $</P>
+</BODY>
+</HTML>

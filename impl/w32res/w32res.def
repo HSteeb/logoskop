@@ -1,0 +1,7 @@
+; w32res.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY      "w32res"
+DESCRIPTION  'w32res Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explizite Exporte können hier eingefügt werden

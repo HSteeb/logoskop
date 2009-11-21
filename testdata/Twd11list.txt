@@ -1,0 +1,8 @@
+category;lang;bible;year;updated;info;url
+file;de;Schlachter2000;2008;2008-11-11T18:23:00Z;Test-Datei-Info de_Schlachter2000_2008\nVenez à moi, vous tous qui êtes fatigués\nNeue Zeile!;file:///S:/helmut/prj/Bible20/theword/txt/de/de_Schlachter2000_2008.twd
+file;de;Schlachter2000;2009;2008-11-12T18:23:00Z;Test-Datei-Info de_Schlachter2000_2009\nNeue Zeile!;file:///S:/helmut/prj/Bible20/theword/txt/de/de_Schlachter2000_2009.twd
+file;en;EnglishStandardVersion;2008;2008-11-13T18:23:00Z;Test-Datei-Info en_EnglishStandardVersion_2008\nNeue Zeile!;file:///S:/helmut/prj/Bible20/theword/txt/en/en_EnglishStandardVersion_2008.twd
+file;ru;JubilaeumsBibel;2008;2008-11-14T18:23:00Z;Test-Datei-Info ru_JubilaeumsBibel_2008\nСлово на вторник, 1 января 2008 г.\nNeue Zeile!;file:///S:/helmut/prj/Bible20/theword/txt/ru/ru_JubilaeumsBibel_2008.twd
+file;ru;JubilaeumsBibel;2009;2008-11-15T18:23:00Z;Test-Datei-Info ru_JubilaeumsBibel_2009\nNeue Zeile!;file:///S:/helmut/prj/Bible20/theword/txt/ru/ru_JubilaeumsBibel_2009.twd
+info;en;;;2008-11-08T18:23:00Z;English info!\nNew Line!
+info;de;;;2008-11-05T18:23:00Z;Deutsche info!\nNeue Zeile!\nSchöne, hübsche Umlaute!
