@@ -17,7 +17,7 @@
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"
 !define LEGAL_TRADEMARKS   "Mozilla Public License Version 1.0; http://www.mozilla.org/MPL/\
 The Initial Developer of the Original Code is Helmut Steeb."
-!define LEGAL_COPYRIGHT "Helmut Steeb hs2009@bible2.net (insert current year)"
+!define LEGAL_COPYRIGHT "Helmut Steeb hs2010@bible2.net (insert current year)"; ADAPT
 !define FILE_DESCRIPTION "Display The Word of Project Bible 2.0"
 
 
@@ -164,7 +164,7 @@ LangString DESC_DESKTOP ${LANG_GERMAN}  "Trägt einen Link auf Logoskop auf dem D
 ; MUI end ------
 
 Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
-OutFile "Logoskop_2010_Installer.exe"; ADAPT
+OutFile "Logoskop_2011_Installer.exe"; ADAPT
 InstallDir "$PROGRAMFILES\bible2.net Logoskop"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
@@ -205,14 +205,16 @@ Section "${PRODUCT_NAME}" SEC01
 
   File "exe\ENreadme.htm"
   File "exe\DEreadme.htm"
-  File "exe\af_AfrikaanseNuweVertaling_2010.twd"; ADAPT
-  File "exe\de_Schlachter2000_2010.twd"; ADAPT
-  File "exe\en_EnglishStandardVersion_2010.twd"; ADAPT
-  ; File "exe\he_ModernHebrew2004_2010.twd"; ADAPT
-  File "exe\hu_Karoli1990_2010.twd"; ADAPT
-  File "exe\it_NuovaRiveduta1994_2010.twd"; ADAPT
-  File "exe\ru_JubilaeumsBibel_2010.twd"; ADAPT
-  File "exe\zh-Hant_ChineseUnionVersionTraditional_2010.twd"; ADAPT
+  File "exe\af_AfrikaanseNuweVertaling_2011.twd"; ADAPT
+  File "exe\de_Schlachter2000_2011.twd"; ADAPT
+  File "exe\en_EnglishStandardVersion_2011.twd"; ADAPT
+  File "exe\fr_Segond21_2011.twd"; ADAPT
+  File "exe\he_ModernHebrew2004_2011.twd"; ADAPT
+  File "exe\hu_Karoli1990_2011.twd"; ADAPT
+  File "exe\it_NuovaRiveduta1994_2011.twd"; ADAPT
+  File "exe\ru_JubilaeumsBibel_2011.twd"; ADAPT
+  File "exe\sw_KiswahiliContemporaryVersion2006_2011.twd"; ADAPT
+  File "exe\zh-Hant_ChineseUnionVersionTraditional_2011.twd"; ADAPT
   File "exe\pub.css"
   File "exe\Logoskop.exe"
   File "exe\Logoskop_ger.dll"
@@ -276,14 +278,16 @@ Section Uninstall
   Delete "$INSTDIR\DEreadme.htm"
   Delete "$INSTDIR\ENreadme.htm"
   ; note: the following leaves the copy in APPDATA
-  Delete "$INSTDIR\af_AfrikaanseNuweVertaling_2010.twd"; ADAPT
-  Delete "$INSTDIR\de_Schlachter2000_2010.twd"; ADAPT
-  Delete "$INSTDIR\en_EnglishStandardVersion_2010.twd"; ADAPT
-  ; Delete "$INSTDIR\he_ModernHebrew2004_2010.twd"; ADAPT
-  Delete "$INSTDIR\hu_Karoli1990_2010.twd"; ADAPT
-  Delete "$INSTDIR\it_NuovaRiveduta1994_2010.twd"; ADAPT
-  Delete "$INSTDIR\ru_JubilaeumsBibel_2010.twd"; ADAPT
-  Delete "$INSTDIR\zh-Hant_ChineseUnionVersionTraditional_2010.twd"; ADAPT
+  Delete "$INSTDIR\af_AfrikaanseNuweVertaling_2011.twd"; ADAPT
+  Delete "$INSTDIR\de_Schlachter2000_2011.twd"; ADAPT
+  Delete "$INSTDIR\en_EnglishStandardVersion_2011.twd"; ADAPT
+  Delete "$INSTDIR\fr_Segond21_2011.twd"; ADAPT
+  Delete "$INSTDIR\he_ModernHebrew2004_2011.twd"; ADAPT
+  Delete "$INSTDIR\hu_Karoli1990_2011.twd"; ADAPT
+  Delete "$INSTDIR\it_NuovaRiveduta1994_2011.twd"; ADAPT
+  Delete "$INSTDIR\ru_JubilaeumsBibel_2011.twd"; ADAPT
+  Delete "$INSTDIR\sw_KiswahiliContemporaryVersion2006_2011.twd"; ADAPT
+  Delete "$INSTDIR\zh-Hant_ChineseUnionVersionTraditional_2011.twd"; ADAPT
   Delete "$INSTDIR\pub.css"
   Delete "$INSTDIR\Logoskop.exe"
   Delete "$INSTDIR\Logoskop_ger.dll"

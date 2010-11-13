@@ -5,6 +5,7 @@
 .*plg
 _archive
 \.svn
+distrib/.*Installer.exe
 distrib/_Versions
 distrib/_Years
 distrib/_screenshots
@@ -16,6 +17,7 @@ impl/Release
 maintenance/feedback.txt
 maintenance/Done
 maintenance/Open
+mgm
 research
 testdata
 
