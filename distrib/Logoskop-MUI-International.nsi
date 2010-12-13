@@ -207,11 +207,13 @@ Section "${PRODUCT_NAME}" SEC01
   File "exe\af_AfrikaanseNuweVertaling_2011.twd"; ADAPT
   File "exe\de_Schlachter2000_2011.twd"; ADAPT
   File "exe\en_EnglishStandardVersion_2011.twd"; ADAPT
+  File "exe\es_ReinaValera1995_2011.twd"; ADAPT
   File "exe\fr_Segond21_2011.twd"; ADAPT
   File "exe\he_ModernHebrew2004_2011.twd"; ADAPT
   File "exe\hu_Karoli1990_2011.twd"; ADAPT
   File "exe\it_NuovaRiveduta1994_2011.twd"; ADAPT
   File "exe\ru_JubilaeumsBibel_2011.twd"; ADAPT
+  File "exe\th_ThaiHolyBible1971_2011.twd"; ADAPT
   File "exe\sw_KiswahiliContemporaryVersion2006_2011.twd"; ADAPT
   File "exe\zh-Hant_ChineseUnionVersionTraditional_2011.twd"; ADAPT
   File "exe\pub.css"
@@ -280,11 +282,13 @@ Section Uninstall
   Delete "$INSTDIR\af_AfrikaanseNuweVertaling_2011.twd"; ADAPT
   Delete "$INSTDIR\de_Schlachter2000_2011.twd"; ADAPT
   Delete "$INSTDIR\en_EnglishStandardVersion_2011.twd"; ADAPT
+  Delete "$INSTDIR\es_ReinaValera1995_2011.twd"; ADAPT
   Delete "$INSTDIR\fr_Segond21_2011.twd"; ADAPT
   Delete "$INSTDIR\he_ModernHebrew2004_2011.twd"; ADAPT
   Delete "$INSTDIR\hu_Karoli1990_2011.twd"; ADAPT
   Delete "$INSTDIR\it_NuovaRiveduta1994_2011.twd"; ADAPT
   Delete "$INSTDIR\ru_JubilaeumsBibel_2011.twd"; ADAPT
+  Delete "$INSTDIR\th_ThaiHolyBible1971_2011.twd"; ADAPT
   Delete "$INSTDIR\sw_KiswahiliContemporaryVersion2006_2011.twd"; ADAPT
   Delete "$INSTDIR\zh-Hant_ChineseUnionVersionTraditional_2011.twd"; ADAPT
   Delete "$INSTDIR\pub.css"
